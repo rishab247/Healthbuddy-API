@@ -3,8 +3,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return "Fuck OFF!"
 
 @app.route("/Askme")
 def Askme():
-    return "Fuck OFF!"
+    return "Fuck OFF! Again"

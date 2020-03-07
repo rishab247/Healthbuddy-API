@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request, make_response, logging
 import jwt
 import json
-import datetime
+from main2 import *
 
 app = Flask(__name__)
 
@@ -17,8 +17,9 @@ def Askme():
     try:
         jsondata = request.get_data().decode("utf-8")
         jsondata = json.loads(jsondata)
-        print(str(jsondata['msg']))
-        return jsonify({'msg': 'Fuck Off! Again', }), 200
+        print(main_call(jsondata['msg']))
+
+        return jsonify({'msg': (main_call(jsondata['msg'])) }), 200
 
     except Exception  as e:
         print(str(e))

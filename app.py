@@ -17,7 +17,7 @@ def Askme():
     try:
         jsondata = request.get_data().decode("utf-8")
         jsondata = json.loads(jsondata)
-        print(str(jsondata))
+        print(str(jsondata['msg']))
         return jsonify({'msg': 'Fuck Off! Again', }), 200
 
     except Exception  as e:

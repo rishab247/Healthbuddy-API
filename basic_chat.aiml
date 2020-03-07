@@ -46,13 +46,6 @@
     </category>
 
     <category>
-        <pattern>FUCK YOU</pattern>
-        <template>
-            fuck u not me asshole.
-        </template>
-    </category>
-
-    <category>
         <pattern>WHAT CAN YOU DO</pattern>
         <template>
             I can do many stuff but i don't know myself what are those ;)
@@ -335,6 +328,20 @@
 	<pattern>WHAT DOES LET_IT_BE_X STAND FOR?</pattern>
 	<template>
 		LET_IT_BE_X STAND FOR 6 FIRENDS
+	</template>
+	</category>
+
+	<category>
+	<pattern>HOW CAN I QUIT SMOKING</pattern>
+	<template>
+		Nicotine replacement. Using nicotine replacement doubles the quit-rate. It helps with withdrawal symptoms and cravings, and can be tapered off easily as withdrawal symptoms improve
+	</template>
+	</category>
+
+	<category>
+	<pattern>WHY SHOULD I QUIT SMOKING</pattern>
+	<template>
+		By quitting smoking, you can: Lengthen your life expectancy. Decrease your risk of disease (including lung cancer, throat cancer, emphysema, heart disease, high blood pressure, ulcers and reflux, erectile and sexual dysfunction, kidney disease, and other conditions)
 	</template>
 	</category>
 

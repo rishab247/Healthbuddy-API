@@ -2,7 +2,8 @@ from flask import Flask, jsonify, request, make_response, logging
 import json
 from main2 import *
 import random as rd
-
+import emotion as em
+import Suggestionfunc as s
 
 
 app = Flask(__name__)
@@ -39,5 +40,17 @@ def suggestiontest():
     i = rd.randint(0,len(list1)-1)
     print(list1[i])
     return jsonify({'msg': list1[i]}), 200
+
+
+@app.route("/suggestion", methods=['POST'])
+def suggestion ():
+    try:
+        jsondata = request.get_data().decode("utf-8")
+        jsondata = json.loads(jsondata)
+        result = s.activity_tracker(em.emotion(jsondata['score']))
+        print(result)
+        return jsonify({'msg': result}), 200
+    except Exception as e:
+        return jsonify({'msg':str(e)}), 404
 
 

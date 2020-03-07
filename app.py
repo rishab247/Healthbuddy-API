@@ -49,7 +49,7 @@ def suggestion ():
         jsondata = json.loads(jsondata)
         result = s.activity_tracker(em.emotion(jsondata['score']))
         print(result)
-        return jsonify({'msg': result}), 200
+        return jsonify( result), 200
     except Exception as e:
         return jsonify({'msg':str(e)}), 404
 

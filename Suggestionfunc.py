@@ -45,7 +45,7 @@ def activity_tracker(score=None):
             "ACtivities" : ["Reading","Playing volleyball","Dressing up and looking nice"]
         }      
 
-    return json.dumps(dictionary, indent = 4)
+    return dictionary
     
 
 

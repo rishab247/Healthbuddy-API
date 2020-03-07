@@ -6,3 +6,4 @@ numpy
 NLP-python
 nltk
 jwt
+beautifulsoup4

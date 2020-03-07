@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, make_response, logging
-import jwt
+
 import json
 from main2 import *
 

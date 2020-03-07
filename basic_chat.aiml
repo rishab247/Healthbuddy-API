@@ -67,20 +67,10 @@
         </template>
     </category>
 
-    <category>
-        <pattern>I WONT</pattern>
-        <template>
-            FUCKK YOU!
-        </template>
-    </category>
 
 
-    <category>
-        <pattern>I WONT *</pattern>
-        <template>
-            FUCKK YOU!
-        </template>
-    </category>
+
+
 
     <category>
         <pattern>HOW ARE YOU</pattern>

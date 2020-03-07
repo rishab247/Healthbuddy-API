@@ -18,7 +18,7 @@ nltk.download('wordnet') # first-time use only
 
 
 #Reading in the corpus
-with open('database\output.txt','r', encoding='utf8', errors ='ignore') as fin:
+with open('output.txt','r', encoding='utf8', errors ='ignore') as fin:
     raw = fin.read().lower()
 
 #TOkenisation

@@ -10,6 +10,7 @@ import datetime
 import random
 from wikipedia import *
 import webbrowser
+from wikiHow import *
 
 def browser(query):
     try:
@@ -99,7 +100,13 @@ def search_for_n(n):
                 q = dictionarry(n)
                 return q
         elif "how to" in n:
-            search(n)
+                try:
+                    max_results = 1
+                    how_tos = search_wikihow(n, max_results)
+                    assert len(how_tos) == 1
+                    return how_tos[0].print()
+                except:
+                    return search()
         elif "what is the meaning of" in n:
                 n = n.replace("tell me the meaning of ","")
                 q = dictionarry(n)
@@ -139,6 +146,5 @@ def search_for_n(n):
 def main_call(n):
     n = n.lower()
     return search_for_n(n)
-
 
  

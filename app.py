@@ -1,13 +1,20 @@
 from flask import Flask, jsonify, request, make_response, logging
-
 import json
 from main2 import *
+
+
+
 
 app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return jsonify({'msg': 'Fuck Off', }), 200
+    return jsonify({'msg': 'hello', }), 200
+
+
+@app.route("/a")
+def helloa():
+    return jsonify({'msg': 'hello world', }), 200
 
 
 

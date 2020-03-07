@@ -90,7 +90,7 @@ class HowTo:
 
     def print(self, extended=False):
         if not extended:
-            print(self.summary)
+            return self.summary
         else:
             print(self.title)
             for s in self.steps:

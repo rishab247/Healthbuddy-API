@@ -104,9 +104,11 @@ def search_for_n(n):
                     max_results = 1
                     how_tos = search_wikihow(n, max_results)
                     assert len(how_tos) == 1
-                    return how_tos[0].print()
+                    d = how_tos[0].print()
+                    print(d)
+                    return d
                 except:
-                    return search()
+                    return search(n)
         elif "what is the meaning of" in n:
                 n = n.replace("tell me the meaning of ","")
                 q = dictionarry(n)
@@ -146,5 +148,6 @@ def search_for_n(n):
 def main_call(n):
     n = n.lower()
     return search_for_n(n)
+
 
  

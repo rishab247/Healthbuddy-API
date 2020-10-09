@@ -4,6 +4,12 @@ from main2 import *
 import random as rd
 import emotion as em
 import Suggestionfunc as s
+import os
+
+from chatbot import Chat, register_call
+import warnings
+warnings.filterwarnings("ignore")
+
 
 
 app = Flask(__name__)
@@ -16,6 +22,26 @@ def hello():
 @app.route("/a")
 def helloa():
     return jsonify({'msg': 'hello world', }), 200
+
+
+chat = Chat(os.path.join(os.path.dirname(os.path.abspath(__file__)), "Example.template"))
+
+
+@app.route("/Bot", methods=['POST'])
+def Bot():
+    try:
+        jsondata = request.get_data().decode("utf-8")
+        jsondata = json.loads(jsondata)
+        first_question = jsondata['msg']
+        # print(chat.say(first_question,jsondata['id']))
+        return jsonify({'msg': chat.say(first_question)}), 200
+
+    except Exception  as e:
+        print(str(e))
+
+        return jsonify({'msg': 'try Again', }), 401
+
+
 
 
 

@@ -6,8 +6,8 @@ import aiml
 import time
 import json
 from difflib import get_close_matches
-import datetime 
-import random
+import datetime as dt
+import random as rd
 from wikipedia import *
 import webbrowser
 from wikiHow import *
@@ -53,14 +53,14 @@ coin = ['Heads', 'Tails']
 
 
 def toss():
-    random.choice(coin)
+    rd.choice(coin)
    
-    return "You got "+ random.choice(coin)
+    return "You got "+ rd.choice(coin)
 
 
 def throw():
 
-    return "You got "+random.choice(dice)
+    return "You got "+rd.choice(dice)
 
 k = aiml.Kernel()
 k.learn("database/std-startup.xml")
@@ -120,16 +120,17 @@ def search_for_n(n):
         elif 'tell me about' in n:
                 n = n.replace('tell me about ', '')
                 q = wikip(n)
+
                 return q
-        elif 'throw a dice' in n:
+        elif 'throw a dice' or 'roll a dice' in n:
                 q = throw()
                 return q
         elif 'what is the time' in n:
-                now = datetime.datetime.now()
+                now = dt.datetime.now()
                 real_time = now.strftime("%I:%M %p")
                 return "It's"+real_time
         elif 'what is the date' in n:
-                now = datetime.datetime.now()
+                now = dt.datetime.now()
                 real_time = now.strftime("%d-%m-%Y")
                 return "today is "+real_time
         elif 'toss a coin' in n:

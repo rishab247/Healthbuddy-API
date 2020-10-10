@@ -91,7 +91,7 @@
     {% block %}
         {% client %}(I('| a)m )? feeling (.*){% endclient %}
         {% prev %}.*how are you{% endprev %}
-        {% response %}{% if {%l ow %3 %} == fine | {%low %3 %} == good | {%low %3 %} == happy %}  Nice to know that you are %3 {% else %} why you feel %3 {% endif %}{% endresponse %}
+        {% response %}{% if {%low %3 %} == fine | {%low %3 %} == good | {%low %3 %} == happy %}  Nice to know that you are %3 {% else %} why you feel %3 {% endif %}{% endresponse %}
     {% endblock %}
     {% block %}
         {% client %}Why can't I (.*){% endclient %}

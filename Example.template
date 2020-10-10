@@ -199,6 +199,7 @@
 
     {% block %}
 	    {% client %}Can you help (.*){% endclient %}
+	    {% client %}can you help (.*){% endclient %}
 	    {% response %}I will try my best{% endresponse %}
     {% endblock %}
 

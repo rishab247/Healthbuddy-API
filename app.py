@@ -5,6 +5,7 @@ import random as rd
 import emotion as em
 import Suggestionfunc as s
 import os
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 from chatbot import Chat, register_call
 import warnings
@@ -34,7 +35,8 @@ def Bot():
         jsondata = json.loads(jsondata)
         first_question = jsondata['msg']
         # print(chat.say(first_question,jsondata['id']))
-        return jsonify({'msg': chat.say(first_question)}), 200
+
+        return jsonify({'msg': chat.say(first_question),"score":sentiment_analyzer_scores( jsondata['msg'])}), 200
 
     except Exception  as e:
         print(str(e))
@@ -44,7 +46,10 @@ def Bot():
 
 
 
-
+def sentiment_analyzer_scores(sentence):
+    analyser = SentimentIntensityAnalyzer()
+    score = analyser.polarity_scores(sentence)
+    return (  str(score["compound"]))
 
 @app.route("/Askme", methods=['POST'])
 def Askme():

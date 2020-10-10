@@ -31,4 +31,5 @@ numpy
 NLP-python
 nltk
 jwt
+vaderSentiment
 beautifulsoup4

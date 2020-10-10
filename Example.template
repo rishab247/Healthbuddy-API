@@ -89,9 +89,9 @@
         {% response %}Do you really want me to %1?{% endresponse %}
     {% endblock %}
     {% block %}
-        {% client %}(I('| a)m )?(.*){% endclient %}
+        {% client %}(I('| a)m )? feeling (.*){% endclient %}
         {% prev %}.*how are you{% endprev %}
-        {% response %}{% if {%low %3 %} == fine | {%low %3 %} == good | {%low %3 %} == happy %}  Nice to know that you are %3 {% else %} why you feel %3 {% endif %}{% endresponse %}
+        {% response %}{% if {%l ow %3 %} == fine | {%low %3 %} == good | {%low %3 %} == happy %}  Nice to know that you are %3 {% else %} why you feel %3 {% endif %}{% endresponse %}
     {% endblock %}
     {% block %}
         {% client %}Why can't I (.*){% endclient %}
@@ -156,6 +156,7 @@
     {% endblock %}
     {% block %}
         {% client %}Hello(.*){% endclient %}
+        {% client %}Hi{% endclient %}
         {% response %}Hello... I'm glad you could drop by today.{% endresponse %}
         {% response %}Hi {% if { name } %}{ name }{% else %}there{% endif %}... how are you today?{% endresponse %}
         {% response %}Hello, how are you feeling today?{% endresponse %}

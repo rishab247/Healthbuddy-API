@@ -30,12 +30,35 @@
     {% block %}
         {% client %}What are you{% endclient %}
         {% client %}What are you{% endclient %}
-        {% response %}
-        I am the latest result in artificial intelligence,
-        which can reproduce the capabilities of the human brain
-        with greater speed and accuracy.
-        {% endresponse %}
+        {% response %} I am a Chatbot.{% endresponse %}
     {% endblock %}
+
+
+    {% block %}
+        {% client %}How are you{% endclient %}
+        {% response %} Wonderful! Thanks for asking.{% endresponse %}
+    {% endblock %}
+    {% block %}
+        {% client %}Are you bot{% endclient %}
+        {% response %}That's me. I chat, therfore I am.{% endresponse %}
+    {% endblock %}
+    {% block %}
+        {% client %}I love me{% endclient %}
+        {% response %}That's great to hear.{% endresponse %}
+    {% endblock %}
+
+    {% block %}
+        {% client %}Will you marry me (.*){% endclient %}
+        {% response %}I know you can't mean that. but I'm flattered all the same.{% endresponse %}
+    {% endblock %}
+
+    {% block %}
+        {% client %}i feel tried{% endclient %}
+        {% response %}How about getting some rest? We can countinue this later.{% endresponse %}
+    {% endblock %}
+
+
+
     {% block %}
         {% client %}(Do you know about|tell me about) (.*){% endclient %}
         {% response %}{% call tellMeAbout:%2 %}{% endresponse %}
@@ -176,6 +199,7 @@
     {% block %}
 	    {% client %}Yes{% endclient %}
 	    {% response %}You seem quite sure.{% endresponse %}
+	    {% response %}Good{% endresponse %}
 	    {% response %}OK, but can you elaborate a bit?{% endresponse %}
     {% endblock %}
     {% block %}

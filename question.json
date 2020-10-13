@@ -1,0 +1,1280 @@
+{
+
+    "Have trouble concentrating": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Have you had experiences with telepathy, psychic forces, or fortune telling?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "Trouble falling or staying asleep, or sleeping too much": [
+        {
+            "Not at all": 0
+        },
+        {
+            " Several days": 1
+        },
+        {
+            "More than half the days": 2
+        },
+        {
+            "Nearly every day": 3
+        }
+    ],
+    "Does not listen to rules": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 0
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Do you sometimes get strange feelings on or just beneath your skin, like bugs crawling?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "Feeling bad about yourself - or that you are a failure or have let yourself or your family down": [
+        {
+            "Not at all": 0
+        },
+        {
+            "Several days": 1
+        },
+        {
+            "More than half the days": 2
+        },
+        {
+            "Nearly every day": 3
+        }
+    ],
+    "Are irritable, angry": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 0
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "tried hard not to think about the event(s) or went out of your way to avoid situations that reminded you of the event(s)? ": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 1
+        }
+    ],
+    "Do you feel that parts of your body have changed in some way, or that parts of your body are working differently?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 1
+        }
+    ],
+    "I had nightmares about the event(s) or thought about the event(s) when you did not want to?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "I feel emotionally drained from my work.": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 2
+        }
+    ],
+    "Blames others for his/her troubles": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Do you worry at times that something may be wrong with your mind?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "Have you had the sense that some person or force is around you, although you couldn’t see anyone?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "Refuses to share": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "My supervisor regularly checks in on me.": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 2
+        }
+    ],
+    "Takes things that do not belong to him/her": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes":1
+        },
+        {
+            "Often": 1
+        }
+    ],
+    "Does not understand other people feelings": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Have you ever felt bad or guilty about your drinking or drug use?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 3
+        }
+    ],
+    "Do you find yourself feeling mistrustful or suspicious of other people?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "Thoughts that you would be better off dead, or of hurting yourself": [
+        {
+            "Not at all": 0
+        },
+        {
+            "Several days": 2
+        },
+        {
+            "More than half the days": 3
+        },
+        {
+            "Nearly every day": 4
+        }
+    ],
+
+    "Not being able to stop or control worrying": [
+        {
+            "Not at all": 0
+        },
+        {
+            " Several days": 0
+        },
+        {
+            "More than half the days": 1
+        },
+        {
+            "Nearly every day": 3
+        }
+    ],
+    "Do you sometimes feel suddenly distracted by distant sounds that you are not normally aware of?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 1
+        }
+    ],
+    "Fidgety, unable to sit still": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Has trouble concentrating": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Are your thoughts sometimes so strong that you can almost hear them?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "My supervisor provides emotional support to help me manage my stress.": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 2
+        }
+    ],
+    "Have you ever felt that you don't exist, the world does not exist, or that you are dead?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "If you checked off any problems, how difficult have these problems made it for you at work, home, or with other people?": [
+        {
+            "Not difficult at all": 0
+        },
+        {
+            "Somewhat difficult": 1
+        },
+        {
+            "Very difficult": 2
+        },
+        {
+            "Extremely difficult": 3
+        }
+    ],
+    "I know what resources I can use if I feel like I need emotional support (e.g. accessing insurance benefits, mental health benefits, employee assistance programs, or onsite supports).": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 2
+        }
+    ],
+    "I have been so unhappy that I have had difficulty sleeping": [
+        {
+            "No, not at all": 0
+        },
+        {
+            "Not very often": 1
+        },
+        {
+            "Yes, sometimes": 2
+        },
+        {
+            "Yes, most of the time": 4
+        }
+    ],
+    "I have looked forward with enjoyment to things": [
+        {
+            "As much as I ever did": 0
+        },
+        {
+            "Rather less than I used to": 1
+        },
+        {
+            "Definitely less than I used to": 2
+        },
+        {
+            "Hardly at all": 3
+        }
+    ],
+    "I have felt sad or miserable": [
+        {
+            "No, not at all": 0
+        },
+        {
+            "Not very often": 1
+        },
+        {
+            "Yes, quite often": 2
+        },
+        {
+            "Yes, most of the time": 3
+        }
+    ],
+    "Is down on self": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "5. I have felt scared or panicky for no very good reason": [
+        {
+            "No, not at all": 0
+        },
+        {
+            "No, not much": 0
+        },
+        {
+            "Yes, sometimes": 1
+        },
+        {
+            "Yes, quite a lot": 3
+        }
+    ],
+    "My workplace stress affects my mental health (i.e. depression or anxiety).": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 3
+        }
+    ],
+    "I have been anxious or worried for no good reason": [
+        {
+            "No, not at all": 0
+        },
+        {
+            "Hardly ever": 0
+        },
+        {
+            "Yes, sometimes": 1
+        },
+        {
+            "Yes, very often": 2
+        }
+    ],
+    "Acts as if driven by a motor": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 0
+        },
+        {
+            "Often": 0
+        }
+    ],
+    "Have you ever felt that you ought to cut down on your drinking or drug use?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "Are afraid of new situations": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 0
+        },
+        {
+            "Often": 1
+        }
+    ],
+    "I have blamed myself unnecessarily when things went wrong": [
+        {
+            "No, never": 0
+        },
+        {
+            "Not very often": 0
+        },
+        {
+            "Yes, some of the time": 1
+        },
+        {
+            "Yes, most of the time": 2
+        }
+    ],
+    "Worries a lot": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "I am paid enough to save 3 months worth of expenses for an emergency.": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 0
+        },
+        {
+            "Somewhat Agree": 0
+        },
+        {
+            "Agree": 0
+        }
+    ],
+    "Do you feel that other people are watching you or talking about you?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 1
+        }
+    ],
+    "Trouble concentrating on things, such as reading the newspaper or watching television": [
+        {
+            "Not at all": 0
+        },
+        {
+            "Several days": 0
+        },
+        {
+            "More than half the days": 1
+        },
+        {
+            "Nearly every day": 2
+        }
+    ],
+    "felt numb or detached from people, activities, or your surroundings? ": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "I have been able to laugh and see the funny side of things": [
+        {
+            "As much as I always could": 0
+        },
+        {
+            "Not quite so much now": 1
+        },
+        {
+            "Definitely not so much now": 2
+        },
+        {
+            "Not at all": 3
+        }
+    ],
+    "I worry about not having enough money to pay for my living expenses.": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 2
+        }
+    ],
+    "I can talk to my supervisor to change stressful things about my work (e.g. workload, time off, changing tasks/responsibilities).": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 2
+        }
+    ],
+    "Seems to be having less fun": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 0
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "been constantly on guard, watchful, or easily startled? ": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "I have been so unhappy that I have been crying": [
+        {
+            "No, never": 0
+        },
+        {
+            "Only occasionally": 1
+        },
+        {
+            "Yes, quite often": 3
+        },
+        {
+            "Yes, most of the time": 4
+        }
+    ],
+    "Spend more time alone": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 0
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "6.\tI have accomplished many worthwhile things in my job.": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 2
+        }
+    ],
+    "Absent from school": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Distracted easily": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 0
+        },
+        {
+            "Often": 1
+        }
+    ],
+    "Daydreams too much": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Do you have difficulty getting your point across, because you ramble or go off the track a lot when you talk?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 1
+        }
+    ],
+    "Have you felt that you are not in control of your own ideas or thoughts?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 3
+        }
+    ],
+    "8. Moving or speaking so slowly that other people could have noticed": [
+        {
+            "Not at all": 0
+        },
+        {
+            "Several days": 1
+        },
+        {
+            "More than half the days": 2
+        },
+        {
+            "Nearly every day": 3
+        }
+    ],
+    "Fights with other children": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "The thought of harming myself has occurred to me": [
+        {
+            "Never": 0
+        },
+        {
+            "Hardly ever": 1
+        },
+        {
+            "Sometimes": 3
+        },
+        {
+            "Yes, quite often": 4
+        }
+    ],
+    "Poor appetite or overeating": [
+        {
+            "Not at all": 0
+        },
+        {
+            "Several days": 1
+        },
+        {
+            "More than half the days": 2
+        },
+        {
+            "Nearly every day": 3
+        }
+    ],
+    "Feeling down, depressed, or hopeless": [
+        {
+            "Not at all": 0
+        },
+        {
+            " Several days": 1
+        },
+        {
+            "More than half the days": 2
+        },
+        {
+            "Nearly every day": 4
+        }
+    ],
+    "Things have been getting on top of me": [
+        {
+            "No, I have been coping as well as ever": 0
+        },
+        {
+            "No, most of the time I have coped quite well": 1
+        },
+        {
+            "Yes, sometimes I haven't been coping as well as usual": 2
+        },
+        {
+            "Yes, most of the time I haven't been able to cope at all": 2
+        }
+    ],
+    "Becoming easily annoyed or irritable": [
+        {
+            "Not at all": 0
+        },
+        {
+            "Several days": 1
+        },
+        {
+            "More than half the days": 2
+        },
+        {
+            "Nearly every day": 3
+        }
+    ],
+    "Teases others": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 1
+        }
+    ],
+    "When was the last time you went on a diet?": [
+        {
+            "I have never been on a diet": 2
+        }
+    ],
+    "Have you seen unusual things like flashes, flames, blinding light, or geometric figures?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "Less interested in friends": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "My employer provides a safe and welcoming environment for employees who live with mental illnesses.": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 2
+        }
+    ],
+    "Have you heard unusual sounds like banging, clicking, hissing, clapping or ringing in your ears?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "I feel more callous toward people since I took this job.": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 2
+        }
+    ],
+    "I feel distracted or find it difficult to concentrate because of my work environment.": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 1
+        }
+    ],
+    "I felt guilty or unable to stop blaming yourself or others for the event(s) or any problems the event(s) may have caused? ": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 1
+        }
+    ],
+    "I feel acknowledged and accepted at work.": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 2
+        }
+    ],
+    "Less interested in school": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Distract easily": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 1
+        }
+    ],
+    "Being so restless that it is hard to sit still": [
+        {
+            "Not at all": 0
+        },
+        {
+            "Several days": 0
+        },
+        {
+            "More than half the days": 1
+        },
+        {
+            "Nearly every day": 2
+        }
+    ],
+    "Feeling nervous, anxious, or on edge": [
+        {
+            "Not at all": 0
+        },
+        {
+            "Several days": 1
+        },
+        {
+            "More than half the days": 2
+        },
+        {
+            "Nearly every day": 2
+        }
+    ],
+    "Have you been confused at times whether something you experienced was real or imaginary?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 3
+        }
+    ],
+    "Do you hold beliefs that other people would find unusual or bizarre?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 2
+        }
+    ],
+    "Have you ever had a drink or used drugs first thing in the morning to steady your nerves or to get rid of a hangover?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 3
+        }
+    ],
+    "Have people annoyed you by criticizing your drinking or drug use?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 3
+        }
+    ],
+    "Feel hopeless": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Act as if driven by motor": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Do you have strong feelings or beliefs about being unusually gifted or talented in some way?": [
+        {
+            "No": 1
+        },
+        {
+            "Yes": 0
+        }
+    ],
+    "Complain of aches or pains": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 0
+        },
+        {
+            "Often": 1
+        }
+    ],
+    "I am unable to afford my or my family\u2019s health care costs.": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 2
+        }
+    ],
+    "Feels hopeless": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Feels sad, unhappy": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Tire easily, little energy": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "I spend time looking for a new position while at work or outside of work.": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 2
+        }
+    ],
+    "Feel sad, unhappy": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Fight with other children": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Feeling tired or having little energy": [
+        {
+            "Not at all": 0
+        },
+        {
+            "Several days": 0
+        },
+        {
+            "More than half the days": 1
+        },
+        {
+            "Nearly every day": 2
+        }
+    ],
+    "Trouble relaxing": [
+        {
+            "Not at all": 0
+        },
+        {
+            "Several days": 1
+        },
+        {
+            "More than half the days": 2
+        },
+        {
+            "Nearly every day": 3
+        }
+    ],
+    "Down on yourself": [
+        {
+            "Never": 0
+        },
+       {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Do familiar surroundings sometimes seem strange, confusing, threatening or unreal to you?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 1
+        }
+    ],
+    "How afraid are you of gaining 3 pounds?": [
+        {
+            "Not afraid of gaining": 0
+        }
+    ],
+    "Little interest or pleasure in doing things": [
+        {
+            "Not at all": 0
+        },
+        {
+            "Several days": 1
+        },
+        {
+            "More than half the days": 2
+        },
+        {
+            "Nearly every day": 3
+        }
+    ],
+    "I really don\u2019t care what happens to my colleagues or clients at my job.": [
+        {
+            "Strongly Disagree": 0
+        },
+        {
+            "Disagree": 0
+        },
+        {
+            "Somewhat Disagree": 1
+        },
+        {
+            "Somewhat Agree": 1
+        },
+        {
+            "Agree": 2
+        }
+    ],
+    "Daydream too much": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 0
+        },
+        {
+            "Often": 0
+        }
+    ],
+    "Worrying too much about different things": [
+        {
+            "Not at all": 0
+        },
+        {
+            " Several days": 1
+        },
+        {
+            "More than half the days": 2
+        },
+        {
+            "Nearly every day": 3
+        }
+    ],
+    "Feeling afraid, as if something awful might happen":
+[
+        {
+            "Not at all": 0
+        },
+        {
+            "Several days": 1
+        },
+        {
+            "More than half the days": 2
+        },
+        {
+            "Nearly every day": 4
+        }
+    ],
+    "Have trouble with teacher": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 0
+        },
+        {
+            "Often": 1
+        }
+    ],
+    "School grades dropping": [
+        {
+            "Never": 0
+        },
+        {
+            "Sometimes": 1
+        },
+        {
+            "Often": 2
+        }
+    ],
+    "Do things that you see appear different from the way they usually do?": [
+        {
+            "No": 0
+        },
+        {
+            "Yes": 3
+        }
+    ],
+    "Do you ever feel fat?": [
+        {
+            "Never": 0
+        }
+    ]
+}
+

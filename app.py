@@ -73,6 +73,23 @@ def suggestiontest():
     return jsonify({'msg': list1[i]}), 200
 
 
+@app.route("/question", methods=['GET'])
+def question():
+    f = open('question.json', )
+    data = json.load(f)
+    print(data)
+    lis = rd.sample(dict(data).keys()   ,5)
+    jdata = dict()
+    for i in lis :
+        jdata[i] = data[i]
+
+
+    return jsonify({'msg': json.dumps(jdata)}), 200
+
+
+
+
+
 @app.route("/suggestion", methods=['POST'])
 def suggestion ():
     try:

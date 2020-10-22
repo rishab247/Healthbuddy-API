@@ -73,7 +73,7 @@ def suggestiontest():
     return jsonify({'msg': list1[i]}), 200
 
 
-@app.route("/question", methods=['GET'])
+@app.route("/question", methods=['POST'])
 def question():
     f = open('question.json', )
     data = json.load(f)
@@ -89,16 +89,27 @@ def question():
 
 
 
+def getsuggutiondata(f):
+    data = json.load(f)
+    lis = rd.sample(dict(data).keys(), 5)
+    jdata = dict()
+    for i in lis:
+        jdata[i] = data[i]
+    # print(112211,jdata)
+    f.close()
+    return jdata
 
 @app.route("/suggestion", methods=['POST'])
 def suggestion ():
-    try:
-        jsondata = request.get_data().decode("utf-8")
-        jsondata = json.loads(jsondata)
-        result = s.activity_tracker(em.emotion(jsondata['score']))
-        print(result)
-        return jsonify( result), 200
-    except Exception as e:
-        return jsonify({'msg':str(e)}), 404
+    f = open('testbook.json', )
+    f1 = open('General.json', )
+    f2 = open('audiobook.json', )
+
+
+    # print(getsuggutiondata(f))
+    # print( json.dumps(getsuggutiondata(f)))
+
+    return jsonify({'testbook': json.dumps(getsuggutiondata(f)),'general': json.dumps(getsuggutiondata(f1)),'audiobook': json.dumps(getsuggutiondata(f2))},), 200
+
 
 

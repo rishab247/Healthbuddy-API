@@ -52,8 +52,45 @@
         {% response %}I know you can't mean that. but I'm flattered all the same.{% endresponse %}
     {% endblock %}
 
+
+    {% block %}
+        {% client %}(.*)depressed(.*){% endclient %}
+        {% response %}Why are you feeling depressed?{% endresponse %}
+        {% response %}What makes you feel depressed?{% endresponse %}
+    {% endblock %}
+
+
+
     {% block %}
         {% client %}i feel tried{% endclient %}
+        {% response %}How about getting some rest? We can countinue this later.{% endresponse %}
+    {% endblock %}
+
+    {% block %}
+        {% client %}i am feeling tried{% endclient %}
+        {% response %}How about getting some rest? We can countinue this later.{% endresponse %}
+    {% endblock %}
+    {% block %}
+        {% client %}i will be happy{% endclient %}
+        {% response %}That's good to Know.{% endresponse %}
+    {% endblock %}
+
+
+{% block %}
+        {% client %}sad{% endclient %}
+        {% response %}Why are you feeling sad?{% endresponse %}
+    {% endblock %}
+    {% block %}
+        {% client %}good{% endclient %}
+        {% response %}That's good to know.{% endresponse %}
+    {% endblock %}
+
+    {% block %}
+        {% client %}i am feeling sad{% endclient %}
+        {% response %}Why are you feeling sad?{% endresponse %}
+    {% endblock %}
+{% block %}
+        {% client %}i am feeling tried{% endclient %}
         {% response %}How about getting some rest? We can countinue this later.{% endresponse %}
     {% endblock %}
 

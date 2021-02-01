@@ -306,9 +306,7 @@
     {% endblock %}
     {% block %}
 	    {% client %}I have (.*){% endclient %}
-	    {% response %}Why do you tell me that you've %1?{% endresponse %}
-	    {% response %}Have you really %1?{% endresponse %}
-	    {% response %}Now that you have %1, what will you do next?{% endresponse %}
+	    {% response %}Ok! What will you do next?{% endresponse %}
     {% endblock %}
     {% block %}
 	    {% client %}I would (.*){% endclient %}
@@ -406,7 +404,7 @@
     {% block %}
 	    {% client %}(.*){% endclient %}
 	    {% response %}Please tell me more.{% endresponse %}
-	    {% response %}Let's change focus a bit... Tell me about your family.{% endresponse %}
+	    {% response %}Let's change focus a bit... Tell me about your friends.{% endresponse %}
 	    {% response %}Can you elaborate on that?{% endresponse %}
 	    {% response %}Why do you say that %1?{% endresponse %}
 	    {% response %}I see.{% endresponse %}

@@ -75,18 +75,32 @@ def suggestiontest():
 
 @app.route("/question", methods=['POST'])
 def question():
-    f = open('question.json', )
+    # f = open('question.json', )
+    # data = json.load(f)
+    # print(data)
+    # lis = rd.sample(dict(data).keys()   ,5)
+    # jdata = dict()
+    # for i in lis :
+    #     jdata[i] = data[i]
+    #
+    #
+    # return jsonify({'msg': json.dumps(jdata)}), 200
+    f = open('question2.json', )
     data = json.load(f)
-    print(data)
-    lis = rd.sample(dict(data).keys()   ,5)
+    data = data["Question"]
+    lis = rd.sample((data), 5)
     jdata = dict()
-    for i in lis :
-        jdata[i] = data[i]
-
-
+    for i in range(5):
+        jdata[i] = lis[i]
     return jsonify({'msg': json.dumps(jdata)}), 200
 
 
+
+@app.route("/Checkquestionans", methods=['POST'])
+def Checkquestionans():
+
+
+    return jsonify({'msg': 0}), 200
 
 
 def getsuggutiondata(f):

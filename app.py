@@ -104,7 +104,7 @@ def Checkquestionans():
         ans = jsondata['Ans']
         # print(chat.say(first_question,jsondata['id']))
 
-        return jsonify({'msg': int(sentiment_analyzer_scores(ans))}), 200
+        return jsonify({'msg':  float(sentiment_analyzer_scores(ans))}), 200
 
     except Exception  as e:
         print(str(e))

@@ -109,7 +109,7 @@ def Checkquestionans():
     except Exception  as e:
         print(str(e))
 
-        return jsonify({'msg': 'try Again', }), 401
+        return jsonify({'msg': 'try Again 1 '+str(e), }), 401
 
 
 

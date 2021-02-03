@@ -98,9 +98,19 @@ def question():
 
 @app.route("/Checkquestionans", methods=['POST'])
 def Checkquestionans():
+    try:
+        jsondata = request.get_data().decode("utf-8")
+        jsondata = json.loads(jsondata)
+        ans = jsondata['Ans']
+        # print(chat.say(first_question,jsondata['id']))
 
+        return jsonify({'msg': int(sentiment_analyzer_scores(ans))}), 200
 
-    return jsonify({'msg': 0}), 200
+    except Exception  as e:
+        print(str(e))
+
+        return jsonify({'msg': 'try Again', }), 401
+
 
 
 def getsuggutiondata(f):

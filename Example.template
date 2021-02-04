@@ -172,8 +172,7 @@
     {% endblock %}
     {% block %}
         {% client %}I am (.*){% endclient %}
-        {% response %}Did you come to me because you are %1?{% endresponse %}
-        {% response %}How long have you been %1?{% endresponse %}
+         {% response %}How long have you been %1?{% endresponse %}
         {% response %}How do you feel about being %1?{% endresponse %}
     {% endblock %}
     {% block %}

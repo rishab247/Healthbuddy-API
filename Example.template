@@ -89,6 +89,10 @@
         {% client %}i am feeling sad{% endclient %}
         {% response %}Why are you feeling sad?{% endresponse %}
     {% endblock %}
+    {% block %}
+        {% client %}i am not feeling good{% endclient %}
+        {% response %}Why are you not feeling good?{% endresponse %}
+    {% endblock %}
 {% block %}
         {% client %}i am feeling tried{% endclient %}
         {% response %}How about getting some rest? We can countinue this later.{% endresponse %}

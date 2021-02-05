@@ -65,8 +65,11 @@
         {% client %}(.*)I need tips to calm down(.*){% endclient %}
         {% client %}(.*)I want tips to calm down(.*){% endclient %}
         {% client %}(.*)I want tips to calm down(.*){% endclient %}
-        {% response %}Combat Stressful Situations by Closing Your Eyes
-        80 percent of sensory stimulation comes in through the eyes, so shutting them every now and then gives your brain a much-needed break. She also says that she has found that highly sensitive persons do better if they can stay in bed with their eyes closed for nine hours. We don’t have to be sleeping. Just lying in bed with our eyes closed allows for some chill time that we need before being bombarded with stimulation.{% endresponse %}
+        {% response %}Combat Stressful Situations by Closing Your Eyes 80 percent of sensory stimulation comes in through the eyes, so shutting them every now and then gives your brain a much-needed break. She also says that she has found that highly sensitive persons do better if they can stay in bed with their eyes closed for nine hours. We don’t have to be sleeping. Just lying in bed with our eyes closed allows for some chill time that we need before being bombarded with stimulation.{% endresponse %}
+        {% response %} Smile You tend to smile when you’re happy. But it’s actually a two-way street.We smile because we’re happy, and smiling causes the brain to release dopamine, which makes us happier. That doesn’t mean you have to go around with a fake smile plastered on your face all the time. But the next time you find yourself feeling low, crack a smile and see what happens. Or try starting each morning by smiling at yourself in the mirror.{% endresponse %}
+        {% response %}Breathe deeply You’re tense, your shoulders are tight, and you feel as though you just might “lose it.” We all know that feeling. Instinct may tell you to take a long, deep breath to calm yourself down.Turns out, that instinct is a goodone. According to Harvard Health, deep breathing exercises can help reduce stress.{% endresponse %}
+       {% response %}See friends Humans are social beings, and having close friends can make us happier. Who do you miss? Reach out to them. Make a date to get together or simply have a long phone chat.In adulthood, it can feel next to impossible to make new friends. But it’s not about how many friends you have. It’s about having meaningful relationships — even if it’s just with one or two people.{% endresponse %}
+
      {% endblock %}
 
 
@@ -75,7 +78,10 @@
          {% response %}Try something new. Break out of your routine and mix things up! It can be as simple as walking down a different street  -- anything to just get off of autopilot and be present where you are.{% endresponse %}
      {% endblock %}
 {% block %}
-
+        {% client %}(.*)I need tips to make friend(.*){% endclient %}
+        {% client %}(.*)I want tips to make friend(.*){% endclient %}
+        {% client %}(.*)I need tips on making friend(.*){% endclient %}
+        {% client %}(.*)I want tips on making friend(.*){% endclient %}
         {% client %}(.*)How to make friend(.*){% endclient %}
         {% client %}(.*)I wanna have friend(.*){% endclient %}
         {% client %}(.*)I can't make any friend(.*){% endclient %}
@@ -84,7 +90,11 @@
         {% client %}(.*)I do not have friend(.*){% endclient %}
         {% client %}(.*)I want some friend(.*){% endclient %}
         {% client %}(.*)I have no friend(.*){% endclient %}
-         {% response %}When a someone asks you a question about a new job or relationship, try to be as open as possible. You’ll build a sense of trust, and your friend will be likely to reciprocate with honesty about their life.{% endresponse %}
+     {% response %}When a someone asks you a question about a new job or relationship, try to be as open as possible. You’ll build a sense of trust, and your friend will be likely to reciprocate with honesty about their life.{% endresponse %}
+     {% response %}Even though social media can’t substitute for real friendships, Facebook can be a great way to find old friends and strengthen old ties if you engage thoughtfully.Trusted Source Posting general status updates (“Just ate breakfast! Delish”) doesn’t do much for close relationships. But posting on someone’s wall to congratulate them on getting in to graduate school can be really meaningful.{% endresponse %}
+     {% response %}Research suggests that experiences may make us happier than actual items.Trusted Source And what better experience is there than spending time with a group of best friends? When a friend moves far away, consider saving up for a little road trip to visit and hang out in their new stomping ground. Likewise, let your friend know your couch is always available.{% endresponse %}
+
+
      {% endblock %}
  {% block %}
 

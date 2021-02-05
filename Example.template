@@ -74,6 +74,13 @@
 
 
     {% block %}
+        {% client %}(.*)I need help(.*){% endclient %}
+        {% client %}(.*)I want help(.*){% endclient %}
+        {% client %}(.*)I wanted help(.*){% endclient %}
+        {% response %}Tell me i am here for you.{% endresponse %}
+     {% endblock %}
+
+    {% block %}
         {% client %}(.*)I am not feeling happy(.*){% endclient %}
          {% response %}Try something new. Break out of your routine and mix things up! It can be as simple as walking down a different street  -- anything to just get off of autopilot and be present where you are.{% endresponse %}
      {% endblock %}
@@ -96,24 +103,19 @@
 
 
      {% endblock %}
- {% block %}
 
-        {% client %}i am feeling tried{% endclient %}
+    {% block %}
+        {% client %}(.*)i feel tried(.*){% endclient %}
+        {% client %}(.*)i am feeling tried(.*){% endclient %}
+        {% client %}(.*)feeling tried(.*){% endclient %}
         {% response %}How about getting some rest? We can countinue this later.{% endresponse %}
     {% endblock %}
 
 
     {% block %}
-        {% client %}i feel tried{% endclient %}
-        {% response %}How about getting some rest? We can countinue this later.{% endresponse %}
-    {% endblock %}
-
-    {% block %}
-        {% client %}i am feeling tried{% endclient %}
-        {% response %}How about getting some rest? We can countinue this later.{% endresponse %}
-    {% endblock %}
-    {% block %}
-        {% client %}i will be happy{% endclient %}
+        {% client %}(.*)i will be happy(.*){% endclient %}
+        {% client %}(.*)i would be happy(.*){% endclient %}
+        {% client %}(.*)i think i would be happy(.*){% endclient %}
         {% response %}That's good to Know.{% endresponse %}
     {% endblock %}
 
@@ -128,15 +130,15 @@
     {% endblock %}
 
     {% block %}
-        {% client %}i am feeling sad{% endclient %}
+        {% client %}(.*)i am feeling sad(.*){% endclient %}
         {% response %}Why are you feeling sad?{% endresponse %}
     {% endblock %}
     {% block %}
-        {% client %}i am not feeling good{% endclient %}
+        {% client %}(.*)i am not feeling good(.*){% endclient %}
         {% response %}Why are you not feeling good?{% endresponse %}
     {% endblock %}
 {% block %}
-        {% client %}i am feeling tried{% endclient %}
+        {% client %}(.*)i am feeling tried(.*){% endclient %}
         {% response %}How about getting some rest? We can countinue this later.{% endresponse %}
     {% endblock %}
 
@@ -356,7 +358,6 @@
     {% block %}
 	    {% client %}I would (.*){% endclient %}
 	    {% response %}Could you explain why you would %1?{% endresponse %}
-	    {% response %}Why would you %1?{% endresponse %}
 	    {% response %}Who else knows that you would %1?{% endresponse %}
     {% endblock %}
     {% block %}

@@ -59,6 +59,41 @@
         {% response %}What makes you feel depressed?{% endresponse %}
     {% endblock %}
 
+    {% block %}
+        {% client %}(.*)I need to calm down(.*){% endclient %}
+        {% client %}(.*)I want to calm down(.*){% endclient %}
+        {% client %}(.*)I need tips to calm down(.*){% endclient %}
+        {% client %}(.*)I want tips to calm down(.*){% endclient %}
+        {% client %}(.*)I want tips to calm down(.*){% endclient %}
+        {% response %}Combat Stressful Situations by Closing Your Eyes
+        80 percent of sensory stimulation comes in through the eyes, so shutting them every now and then gives your brain a much-needed break. She also says that she has found that highly sensitive persons do better if they can stay in bed with their eyes closed for nine hours. We don’t have to be sleeping. Just lying in bed with our eyes closed allows for some chill time that we need before being bombarded with stimulation.{% endresponse %}
+     {% endblock %}
+{% block %}
+
+
+    {% block %}
+        {% client %}(.*)I am not feeling happy(.*){% endclient %}
+         {% response %}Try something new. Break out of your routine and mix things up! It can be as simple as walking down a different street  -- anything to just get off of autopilot and be present where you are.{% endresponse %}
+     {% endblock %}
+{% block %}
+{% block %}
+        {% client %}(.*)How to make friend(.*){% endclient %}
+        {% client %}(.*)I wanna have friend(.*){% endclient %}
+        {% client %}(.*)I can't make any friend(.*){% endclient %}
+        {% client %}(.*)I can not make any friend(.*){% endclient %}
+        {% client %}(.*)I don't have friend(.*){% endclient %}
+        {% client %}(.*)I do not have friend(.*){% endclient %}
+        {% client %}(.*)I want some friend(.*){% endclient %}
+        {% client %}(.*)I have no friend(.*){% endclient %}
+         {% response %}When a someone asks you a question about a new job or relationship, try to be as open as possible. You’ll build a sense of trust, and your friend will be likely to reciprocate with honesty about their life.{% endresponse %}
+     {% endblock %}
+{% block %}
+
+
+
+        {% client %}i am feeling tried{% endclient %}
+        {% response %}How about getting some rest? We can countinue this later.{% endresponse %}
+    {% endblock %}
 
 
     {% block %}

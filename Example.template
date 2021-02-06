@@ -67,7 +67,12 @@
         {% response %}I know you can't mean that. but I'm flattered all the same.{% endresponse %}
     {% endblock %}
 
+ {% block %}
+	    {% client %}(.*)family issues(.*){% endclient %}
+	    {% client %}(.*)family issue(.*){% endclient %}
 
+	    {% response %}OK, but can you elaborate a bit?{% endresponse %}
+    {% endblock %}
     {% block %}
         {% client %}(.*)depressed(.*){% endclient %}
         {% response %}Why are you feeling depressed?{% endresponse %}
@@ -104,6 +109,8 @@
         {% client %}(.*)I want tips to make friend(.*){% endclient %}
         {% client %}(.*)I need tips on making friend(.*){% endclient %}
         {% client %}(.*)I want tips on making friend(.*){% endclient %}
+        {% client %}(.*)tips on making friend(.*){% endclient %}
+        {% client %}(.*)tips to make friend(.*){% endclient %}
         {% client %}(.*)How to make friend(.*){% endclient %}
         {% client %}(.*)I wanna have friend(.*){% endclient %}
         {% client %}(.*)I can't make any friend(.*){% endclient %}
@@ -136,6 +143,8 @@
         {% client %}(.*)i will be happy(.*){% endclient %}
         {% client %}(.*)i would be happy(.*){% endclient %}
         {% client %}(.*)i think i would be happy(.*){% endclient %}
+        {% client %}(.*)it's my choice(.*){% endclient %}
+        {% client %}(.*)its my choice(.*){% endclient %}
         {% response %}That's good to Know.{% endresponse %}
     {% endblock %}
 
@@ -160,7 +169,9 @@
     {% endblock %}
     {% block %}
         {% client %}(.*)i am not feeling good(.*){% endclient %}
-        {% response %}Why are you not feeling good?{% endresponse %}
+        {% client %}(.*)not feeling good(.*){% endclient %}
+        {% client %}(.*)not feeling good(.*){% endclient %}
+        {% response %}not good(.*){% endresponse %}
     {% endblock %}
 {% block %}
         {% client %}(.*)i am feeling tried(.*){% endclient %}

@@ -35,6 +35,9 @@
 
 {% block %}
         {% client %}(.*)commit suicide(.*){% endclient %}
+        {% client %}(.*)do suicide(.*){% endclient %}
+        {% client %}(.*)hang myself(.*){% endclient %}
+        {% client %}(.*)kill myself(.*){% endclient %}
         {% response %}How are you coping with what's been happening in your life?{% endresponse %}
         {% response %}Do you ever feel like just giving up?{% endresponse %}
         {% response %}Are you thinking about dying?{% endresponse %}
@@ -424,8 +427,8 @@
 	    {% client %}(.*) kill (.*){% endclient %}
 	    {% client %}(.*) Die (.*){% endclient %}
 	    {% client %}(.*) die (.*){% endclient %}
-	    {% client %}(.*) suicide (.*){% endclient %}
-	    {% client %}(.*) suicidal (.*){% endclient %}
+	    {% client %}(.*)suicide(.*){% endclient %}
+	    {% client %}(.*)suicidal(.*){% endclient %}
 	    {% client %}(.*) jump from (.*){% endclient %}
 	    {% client %}(.*) Jump from (.*){% endclient %}
 	    {% client %}(.*) Jumping (.*){% endclient %}

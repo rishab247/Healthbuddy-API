@@ -1,7 +1,6 @@
 {"Question": [
-  ["How was your day?","My day was *"],["Have you ever helped someone who was feeling stressful?","* i Have helped someone who was feeling stressful."]
+  ["How was your day?","My day was *"],["How are you feeling?","I am feeling *"],["Have you ever helped someone who was feeling stressful?","* i Have helped someone who was feeling stressful."]
 ,["Do you like being busy?","* i like being busy"],["Do you keep your worries a secret from other people?","* i keep my worries a secret from other people."],
-  ["Which words would you use to describe yourself?","* words would i use to describe myself."],["How was your day?","My day was *"],["Have you ever helped someone who was feeling stressful?","* i Have helped someone who was feeling stressful."]
-,["Do you like being busy?","* i like being busy"],["Do you keep your worries a secret from other people?","* i keep my worries a secret from other people."],
-  ["Which words would you use to describe yourself?","* words would i use to describe myself."]
+  ["Which words would you use to describe yourself?","* words would i use to describe myself."],
+  ["Do you look up to someone?","* look up to someone"]
 ]}

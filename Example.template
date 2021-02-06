@@ -108,10 +108,15 @@
         {% client %}(.*)I wanna have friend(.*){% endclient %}
         {% client %}(.*)I can't make any friend(.*){% endclient %}
         {% client %}(.*)I can not make any friend(.*){% endclient %}
+        {% client %}(.*)I can't make friend(.*){% endclient %}
+        {% client %}(.*)I can not make friend(.*){% endclient %}
         {% client %}(.*)I don't have friend(.*){% endclient %}
         {% client %}(.*)I do not have friend(.*){% endclient %}
+        {% client %}(.*)I don't have any friend(.*){% endclient %}
+        {% client %}(.*)I do not have any friend(.*){% endclient %}
         {% client %}(.*)I want some friend(.*){% endclient %}
         {% client %}(.*)I have no friend(.*){% endclient %}
+
      {% response %}When a someone asks you a question about a new job or relationship, try to be as open as possible. You’ll build a sense of trust, and your friend will be likely to reciprocate with honesty about their life.{% endresponse %}
      {% response %}Even though social media can’t substitute for real friendships, Facebook can be a great way to find old friends and strengthen old ties if you engage thoughtfully.Trusted Source Posting general status updates (“Just ate breakfast! Delish”) doesn’t do much for close relationships. But posting on someone’s wall to congratulate them on getting in to graduate school can be really meaningful.{% endresponse %}
      {% response %}Research suggests that experiences may make us happier than actual items.Trusted Source And what better experience is there than spending time with a group of best friends? When a friend moves far away, consider saving up for a little road trip to visit and hang out in their new stomping ground. Likewise, let your friend know your couch is always available.{% endresponse %}
@@ -136,11 +141,16 @@
 
 
 {% block %}
+        {% client %}(.*)sad{% endclient %}
+        {% client %}(.*)sad{% endclient %}
+        {% client %}sad(.*){% endclient %}
+        {% client %}sad(.*){% endclient %}
+        {% client %}sad{% endclient %}
         {% client %}sad{% endclient %}
         {% response %}Why are you feeling sad?{% endresponse %}
     {% endblock %}
     {% block %}
-        {% client %}good{% endclient %}
+        {% client %}(.*)good{% endclient %}
         {% response %}That's good to know.{% endresponse %}
     {% endblock %}
 

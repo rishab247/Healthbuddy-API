@@ -327,10 +327,9 @@
     {% endblock %}
     {% block %}
 	    {% client %}Yes{% endclient %}
-	    {% response %}You seem quite sure.{% endresponse %}
-	    {% response %}Good{% endresponse %}
-	    {% response %}OK, but can you elaborate a bit?{% endresponse %}
-    {% endblock %}
+	    {% response %}Ok that's good to know.{% endresponse %}
+	    {% response %}Good.{% endresponse %}
+     {% endblock %}
     {% block %}
 	    {% client %}(.*) computer(.*){% endclient %}
 	    {% response %}Are you really talking about me?{% endresponse %}
@@ -501,8 +500,7 @@
 	    {% response %}I see.{% endresponse %}
 	    {% response %}Very interesting.{% endresponse %}
 	    {% response %}%1.{% endresponse %}
-	    {% response %}I see.  And what does that tell you?{% endresponse %}
-	    {% response %}How does that make you feel?{% endresponse %}
+ 	    {% response %}How does that make you feel?{% endresponse %}
 	    {% response %}How do you feel when you say that?{% endresponse %}
     {% endblock %}
         {% block %}

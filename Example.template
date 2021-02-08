@@ -30,14 +30,16 @@
 
     {% block %}
         {% client %}What are you(.*){% endclient %}
-        {% response %} I am a Chatbot.{% endresponse %}
+        {% response %}I am a Chatbot.{% endresponse %}
     {% endblock %}
 
-{% block %}
+    {% block %}
+
         {% client %}(.*)commit suicide(.*){% endclient %}
         {% client %}(.*)do suicide(.*){% endclient %}
         {% client %}(.*)hang myself(.*){% endclient %}
         {% client %}(.*)kill myself(.*){% endclient %}
+
         {% response %}How are you coping with what's been happening in your life?{% endresponse %}
         {% response %}Do you ever feel like just giving up?{% endresponse %}
         {% response %}Are you thinking about dying?{% endresponse %}
@@ -502,5 +504,9 @@
         {% block %}
         {% client %}what is (.*){% endclient %}
         {% response %}{% call whatIs:%1 %}{% endresponse %}
+    {% endblock %}
+    {% block %}
+        {% client %}(.*)test link(.*){% endclient %}
+        {% response %}Try this https://www.youtube.com/watch?v=GWevDdDzCy8{% endresponse %}
     {% endblock %}
 {% endgroup %}

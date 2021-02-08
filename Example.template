@@ -49,9 +49,7 @@
         {% response %}Are you thinking about dying?{% endresponse %}
         {% response %}Are you thinking about hurting yourself?{% endresponse %}
         {% response %}Are you thinking about suicide?{% endresponse %}
-        {% response %}Have you ever thought about suicide before, or tried to harm yourself before?{% endresponse %}
-        {% response %}Have you thought about how or when you'd do it?{% endresponse %}
-        {% response %}Do you have access to weapons or things that can be used as weapons to harm yourself?{% endresponse %}
+        {% response %}When ever thought about this first, or tried to harm yourself?{% endresponse %}
 
 
     {% endblock %}
@@ -156,6 +154,39 @@
         {% client %}(.*)its my choice(.*){% endclient %}
         {% response %}That's good to Know.{% endresponse %}
     {% endblock %}
+
+
+
+
+    {% block %}
+        {% client %}I am missing something(.*){% endclient %}
+        {% client %}I need something(.*){% endclient %}
+        {% client %}I want something(.*){% endclient %}
+        {% client %}I lack something(.*){% endclient %}
+        {% client %}I desire something(.*){% endclient %}
+        {% client %}I crave something(.*){% endclient %}
+        {% client %}I have lust something(.*){% endclient %}
+        {% client %}I wish something(.*){% endclient %}
+        {% client %}I wish something(.*){% endclient %}
+
+        {% client %}I am missing someone(.*){% endclient %}
+        {% client %}I miss someone(.*){% endclient %}
+        {% client %}I need someone(.*){% endclient %}
+        {% client %}I want someone(.*){% endclient %}
+        {% client %}I lack someone(.*){% endclient %}
+        {% client %}I desire someone(.*){% endclient %}
+        {% client %}I crave someone(.*){% endclient %}
+        {% client %}I have lust someone(.*){% endclient %}
+        {% client %}I wish something(.*){% endclient %}
+        {% client %}I wish something(.*){% endclient %}
+
+        {% response %}Try this https://youtube.com/playlist?list=PLb0C_I-k2Ph-4A1_qQAlbY7sYcp5fv_sN{% endresponse %}
+        {% response %}Try 10 days meditation challenge{% endresponse %}
+        {% response %}Try 15 days meditation challenge{% endresponse %}
+    {% endblock %}
+
+
+
 
 
 {% block %}
@@ -308,13 +339,11 @@
         {% response %}There are many times when no apology is needed.{% endresponse %}
         {% response %}What feelings do you have when you apologize?{% endresponse %}
     {% endblock %}
-    {% block %}
-        {% client %}Hi(.*){% endclient %}
-        {% response %}{% chat Hello%1 %}{% endresponse %}
-    {% endblock %}
+
     {% block %}
         {% client %}Hello(.*){% endclient %}
         {% client %}Hi{% endclient %}
+        {% client %}Hi(.*){% endclient %}
         {% response %}Hello... I'm glad you could drop by today.{% endresponse %}
         {% response %}Hi {% if { name } %}{ name }{% else %}there{% endif %}... how are you today?{% endresponse %}
         {% response %}Hello, how are you feeling today?{% endresponse %}
@@ -331,9 +360,19 @@
 	    {% response %}When you think of a friend, what comes to mind?{% endresponse %}
 	    {% response %}Why don't you tell me about a childhood friend?{% endresponse %}
     {% endblock %}
+
+
+    {% block %}
+	    {% client %}(.*)meditation(.*){% endclient %}
+	    {% response %}meditation will help you feel better{% endresponse %}
+ {% endblock %}
+
     {% block %}
 	    {% client %}Yes{% endclient %}
 	    {% response %}Ok that's good to know.{% endresponse %}
+        {% response %}Can you elaborate on that?{% endresponse %}
+        {% response %}You should give meditation a try.{% endresponse %}
+
 	    {% response %}Good.{% endresponse %}
      {% endblock %}
     {% block %}

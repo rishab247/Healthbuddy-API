@@ -1,4 +1,8 @@
 {% group %}
+{% block %}
+        {% client %}(.*)test link(.*){% endclient %}
+        {% response %}Try this https://www.youtube.com/watch?v=GWevDdDzCy8{% endresponse %}
+    {% endblock %}
     {% block %}
         {% client %}Please (.*){% endclient %}
         {% response %}{% chat %1 %}{% endresponse %}
@@ -505,8 +509,5 @@
         {% client %}what is (.*){% endclient %}
         {% response %}{% call whatIs:%1 %}{% endresponse %}
     {% endblock %}
-    {% block %}
-        {% client %}(.*)test link(.*){% endclient %}
-        {% response %}Try this https://www.youtube.com/watch?v=GWevDdDzCy8{% endresponse %}
-    {% endblock %}
+
 {% endgroup %}

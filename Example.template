@@ -168,6 +168,12 @@
         {% response %}Why are you feeling sad?{% endresponse %}
     {% endblock %}
     {% block %}
+        {% client %}(.*)not good{% endclient %}
+        {% client %}(.*)not very good{% endclient %}
+    	    {% response %}OK, can you elaborate a bit?{% endresponse %}
+
+    {% endblock %}
+    {% block %}
         {% client %}(.*)good{% endclient %}
         {% response %}That's good to know.{% endresponse %}
     {% endblock %}

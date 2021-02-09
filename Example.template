@@ -200,13 +200,18 @@
     {% endblock %}
     {% block %}
         {% client %}(.*)not good{% endclient %}
+        {% client %}(.*)not feeling good{% endclient %}
         {% client %}(.*)not very good{% endclient %}
     	    {% response %}OK, can you elaborate a bit?{% endresponse %}
-
     {% endblock %}
     {% block %}
         {% client %}(.*)good{% endclient %}
         {% response %}That's good to know.{% endresponse %}
+    {% endblock %}
+
+    {% block %}
+        {% client %}(.*)bad day{% endclient %}
+        {% response %}I am Sorry to hear that, You should try https://youtu.be/PXhgUa96hUw{% endresponse %}
     {% endblock %}
 
     {% block %}
@@ -363,8 +368,15 @@
 
 
     {% block %}
+	    {% client %}(.*)don't meditation(.*){% endclient %}
+	    {% client %}(.*)don't want to try meditation(.*){% endclient %}
+	    {% client %}(.*)hate meditation(.*){% endclient %}
+	    {% response %}You Should at least give it a try{% endresponse %}
+ {% endblock %}
+
+    {% block %}
 	    {% client %}(.*)meditation(.*){% endclient %}
-	    {% response %}meditation will help you feel better{% endresponse %}
+	    {% response %}Meditation isn’t about becoming a different person, a new person, or even a better person. It’s about training in awareness and getting a healthy sense of perspective. You’re not trying to turn off your thoughts or feelings. You’re learning to observe them without judgment. And eventually, you may start to better understand them as well.{% endresponse %}
  {% endblock %}
 
     {% block %}
@@ -408,6 +420,7 @@
 	    {% response %}If I could %1, then what?{% endresponse %}
 	    {% response %}Why do you ask if I can %1?{% endresponse %}
     {% endblock %}
+
     {% block %}
 	    {% client %}Can I (.*){% endclient %}
 	    {% response %}Perhaps you don't want to %1.{% endresponse %}

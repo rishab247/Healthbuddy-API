@@ -91,12 +91,13 @@
         {% client %}(.*)I want to calm down(.*){% endclient %}
         {% client %}(.*)I need tips to calm down(.*){% endclient %}
         {% client %}(.*)I want tips to calm down(.*){% endclient %}
-        {% client %}(.*)I want tips to calm down(.*){% endclient %}
+        {% client %}(.*)tips to calm down(.*){% endclient %}
+        {% client %}(.*)tips to calm down(.*){% endclient %}
         {% response %}Combat Stressful Situations by Closing Your Eyes 80 percent of sensory stimulation comes in through the eyes, so shutting them every now and then gives your brain a much-needed break. She also says that she has found that highly sensitive persons do better if they can stay in bed with their eyes closed for nine hours. We don’t have to be sleeping. Just lying in bed with our eyes closed allows for some chill time that we need before being bombarded with stimulation.{% endresponse %}
         {% response %} Smile You tend to smile when you’re happy. But it’s actually a two-way street.We smile because we’re happy, and smiling causes the brain to release dopamine, which makes us happier. That doesn’t mean you have to go around with a fake smile plastered on your face all the time. But the next time you find yourself feeling low, crack a smile and see what happens. Or try starting each morning by smiling at yourself in the mirror.{% endresponse %}
         {% response %}Breathe deeply You’re tense, your shoulders are tight, and you feel as though you just might “lose it.” We all know that feeling. Instinct may tell you to take a long, deep breath to calm yourself down.Turns out, that instinct is a goodone. According to Harvard Health, deep breathing exercises can help reduce stress.{% endresponse %}
        {% response %}See friends Humans are social beings, and having close friends can make us happier. Who do you miss? Reach out to them. Make a date to get together or simply have a long phone chat.In adulthood, it can feel next to impossible to make new friends. But it’s not about how many friends you have. It’s about having meaningful relationships — even if it’s just with one or two people.{% endresponse %}
-
+        {% response %}Give this a try https://youtu.be/PXhgUa96hUw{% endresponse %}
      {% endblock %}
 
 
@@ -106,11 +107,112 @@
         {% client %}(.*)I wanted help(.*){% endclient %}
         {% response %}Tell me i am here for you.{% endresponse %}
      {% endblock %}
+     {% block %}
+        {% client %}(.*)Inner peace(.*){% endclient %}
+        {% client %}(.*)need peace(.*){% endclient %}
+        {% response %}Give this a try https://youtu.be/Aj-KRN5sXPI{% endresponse %}
+        {% response %}Meditation is the good source of inner peice{% endresponse %}
+     {% endblock %}
+
+    {% block %}
+        {% client %}(.*)overthink(.*){% endclient %}
+        {% client %}(.*)slow down my thought(.*){% endclient %}
+        {% client %}(.*)slow down my brain(.*){% endclient %}
+
+        {% response %}Give this a try https://youtu.be/EpVFSti0Ydg{% endresponse %}
+        {% response %}Give this a try https://youtu.be/LcCO9u2FaHE{% endresponse %}
+        {% response %}Meditation can help you overcome overthinking {% endresponse %}
+     {% endblock %}
+     {% block %}
+        {% client %}(.*)get success(.*){% endclient %}
+        {% client %}(.*)become success(.*){% endclient %}
+        {% client %}(.*)need success (.*){% endclient %}
+        {% client %}(.*)to be success (.*){% endclient %}
+        {% client %}(.*)crave success(.*){% endclient %}
+        {% client %}(.*)hate losing(.*){% endclient %}
+        {% client %}(.*)want losing(.*){% endclient %}
+        {% client %}(.*)want to lose(.*){% endclient %}
+        {% client %}(.*)don't like losing(.*){% endclient %}
+        {% client %}(.*)do not like losing(.*){% endclient %}
+        {% client %}(.*)hate fail(.*){% endclient %}
+        {% client %}(.*)want fail(.*){% endclient %}
+        {% client %}(.*)want to fail(.*){% endclient %}
+        {% client %}(.*)hate fail(.*){% endclient %}
+        {% client %}(.*)don't like fail(.*){% endclient %}
+        {% client %}(.*)do not like fail(.*){% endclient %}
+        {% client %}(.*)achieve goal(.*){% endclient %}
+        {% client %}(.*)achieve my goals(.*){% endclient %}
+
+        {% response %}Give this a try https://youtube.com/playlist?list=PL7by6RYPG3HBIcoBm6vhthBguC5iGKKS{% endresponse %}
+     {% endblock %}
+
+    {% block %}
+        {% client %}(.*)let go my stress(.*){% endclient %}
+        {% client %}(.*)out of stress(.*){% endclient %}
+        {% client %}(.*)out stress(.*){% endclient %}
+        {% client %}(.*)feeling stress(.*){% endclient %}
+        {% client %}(.*)overcome stress(.*){% endclient %}
+        {% client %}(.*)overcome my stress(.*){% endclient %}
+        {% client %}(.*)feel stress(.*){% endclient %}
+        {% client %}(.*)having stress(.*){% endclient %}
+        {% client %}(.*)free stress(.*){% endclient %}
+        {% client %}(.*)stress free(.*){% endclient %}
+        {% client %}(.*)free of stress(.*){% endclient %}
+        {% client %}(.*)deal with stress(.*){% endclient %}
+        {% client %}(.*)deal stress(.*){% endclient %}
+        {% client %}(.*)deal in stress(.*){% endclient %}
+        {% client %}(.*)do in stress(.*){% endclient %}
+        {% client %}(.*)tip on stress(.*){% endclient %}
+        {% client %}(.*)tips on stress(.*){% endclient %}
+        {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph9IvgPBouov8MHLkpyJfR7y{% endresponse %}
+        {% response %}Try Meditating for 5-10 minutes{% endresponse %}
+        {% response %}Close you eyes and take deep breath{% endresponse %}
+     {% endblock %}
+
+
+    {% block %}
+        {% client %}(.*)feel relax(.*){% endclient %}
+        {% client %}(.*)relaxation tips(.*){% endclient %}
+        {% client %}(.*)relaxing tips(.*){% endclient %}
+        {% client %}(.*)want to relax(.*){% endclient %}
+        {% client %}(.*)need to relax(.*){% endclient %}
+        {% client %}(.*)help in relax(.*){% endclient %}
+        {% client %}(.*)help in relaxation(.*){% endclient %}
+
+        {% response %}Give this a try https://youtu.be/NrcU5TYeLLI{% endresponse %}
+        {% response %}Try Meditating for 5-10 minutes{% endresponse %}
+        {% response %}Try closing you eyes and take deep breath for 5 minutes{% endresponse %}
+
+     {% endblock %}
+
+
 
     {% block %}
         {% client %}(.*)I am not feeling happy(.*){% endclient %}
          {% response %}Try something new. Break out of your routine and mix things up! It can be as simple as walking down a different street  -- anything to just get off of autopilot and be present where you are.{% endresponse %}
+         {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph9IvgPBouov8MHLkpyJfR7y{% endresponse %}
+         {% response %}Meditation might me helpful{% endresponse %}
      {% endblock %}
+
+    {% block %}
+        {% client %}(.*)perfect sleep(.*){% endclient %}
+        {% client %}(.*)nice sleep(.*){% endclient %}
+        {% client %}(.*)sleep more(.*){% endclient %}
+        {% client %}(.*)healthy sleep(.*){% endclient %}
+        {% client %}(.*)need sleep(.*){% endclient %}
+        {% client %}(.*)need nice sleep(.*){% endclient %}
+        {% client %}(.*)need to sleep(.*){% endclient %}
+         {% client %}(.*)want sleep(.*){% endclient %}
+         {% client %}(.*)want nice sleep(.*){% endclient %}
+        {% client %}(.*)want to sleep(.*){% endclient %}
+        {% client %}(.*)tips for good sleep(.*){% endclient %}
+        {% client %}(.*)tips for better sleep(.*){% endclient %}
+        {% client %}(.*)tips for perfect sleep(.*){% endclient %}
+        {% client %}(.*)tips for sleep(.*){% endclient %}
+         {% response %}Give this a try https://youtu.be/gM-MuAtatG0{% endresponse %}
+         {% response %}Meditation might me helpful. Meditate for 5-10 minute before going to bed{% endresponse %}
+     {% endblock %}
+
 {% block %}
         {% client %}(.*)I need tips to make friend(.*){% endclient %}
         {% client %}(.*)I want tips to make friend(.*){% endclient %}
@@ -130,13 +232,32 @@
         {% client %}(.*)I do not have any friend(.*){% endclient %}
         {% client %}(.*)I want some friend(.*){% endclient %}
         {% client %}(.*)I have no friend(.*){% endclient %}
-
      {% response %}When a someone asks you a question about a new job or relationship, try to be as open as possible. You’ll build a sense of trust, and your friend will be likely to reciprocate with honesty about their life.{% endresponse %}
      {% response %}Even though social media can’t substitute for real friendships, Facebook can be a great way to find old friends and strengthen old ties if you engage thoughtfully.Trusted Source Posting general status updates (“Just ate breakfast! Delish”) doesn’t do much for close relationships. But posting on someone’s wall to congratulate them on getting in to graduate school can be really meaningful.{% endresponse %}
      {% response %}Research suggests that experiences may make us happier than actual items.Trusted Source And what better experience is there than spending time with a group of best friends? When a friend moves far away, consider saving up for a little road trip to visit and hang out in their new stomping ground. Likewise, let your friend know your couch is always available.{% endresponse %}
-
-
      {% endblock %}
+
+    {% block %}
+        {% client %}(.*)having family issue(.*){% endclient %}
+        {% client %}(.*)having some family issue(.*){% endclient %}
+        {% client %}(.*)need my family(.*){% endclient %}
+        {% client %}(.*)hate my family(.*){% endclient %}
+        {% client %}(.*)don't like my family(.*){% endclient %}
+        {% client %}(.*)do not like my family(.*){% endclient %}
+        {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph8smM6LiCCG8iFm4R63TT6k{% endresponse %}
+    {% endblock %}
+     {% block %}
+        {% client %}(.*)some inspiration(.*){% endclient %}
+        {% client %}(.*)need inspiration(.*){% endclient %}
+        {% client %}(.*)want inspiration(.*){% endclient %}
+        {% client %}(.*)don't have inspiration(.*){% endclient %}
+        {% client %}(.*)lack inspiration(.*){% endclient %}
+        {% client %}(.*)lack of inspiration(.*){% endclient %}
+        {% client %}(.*)crave inspiration(.*){% endclient %}
+        {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph_NzTFBzbVKAwywl4YqsGYr{% endresponse %}
+    {% endblock %}
+
+
 
     {% block %}
         {% client %}(.*)i feel tried(.*){% endclient %}
@@ -144,7 +265,6 @@
         {% client %}(.*)feeling tried(.*){% endclient %}
         {% response %}How about getting some rest? We can countinue this later.{% endresponse %}
     {% endblock %}
-
 
     {% block %}
         {% client %}(.*)i will be happy(.*){% endclient %}
@@ -154,9 +274,6 @@
         {% client %}(.*)its my choice(.*){% endclient %}
         {% response %}That's good to Know.{% endresponse %}
     {% endblock %}
-
-
-
 
     {% block %}
         {% client %}I am missing something(.*){% endclient %}
@@ -168,7 +285,6 @@
         {% client %}I have lust something(.*){% endclient %}
         {% client %}I wish something(.*){% endclient %}
         {% client %}I wish something(.*){% endclient %}
-
         {% client %}I am missing someone(.*){% endclient %}
         {% client %}I miss someone(.*){% endclient %}
         {% client %}I need someone(.*){% endclient %}
@@ -179,31 +295,31 @@
         {% client %}I have lust someone(.*){% endclient %}
         {% client %}I wish something(.*){% endclient %}
         {% client %}I wish something(.*){% endclient %}
-
         {% response %}Try this https://youtube.com/playlist?list=PLb0C_I-k2Ph-4A1_qQAlbY7sYcp5fv_sN{% endresponse %}
         {% response %}Try 10 days meditation challenge{% endresponse %}
         {% response %}Try 15 days meditation challenge{% endresponse %}
     {% endblock %}
 
-
-
-
-
 {% block %}
-        {% client %}(.*)sad{% endclient %}
-        {% client %}(.*)sad{% endclient %}
-        {% client %}sad(.*){% endclient %}
-        {% client %}sad(.*){% endclient %}
-        {% client %}sad{% endclient %}
-        {% client %}sad{% endclient %}
+
+        {% client %}(.*)felling sad(.*){% endclient %}
+        {% client %}(.*)felling sad(.*){% endclient %}
         {% response %}Why are you feeling sad?{% endresponse %}
+        {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph9IvgPBouov8MHLkpyJfR7y{% endresponse %}
+
     {% endblock %}
+
     {% block %}
         {% client %}(.*)not good{% endclient %}
         {% client %}(.*)not feeling good{% endclient %}
         {% client %}(.*)not very good{% endclient %}
-    	    {% response %}OK, can you elaborate a bit?{% endresponse %}
+         {% client %}(.*)not well{% endclient %}
+        {% client %}(.*)not feeling well{% endclient %}
+        {% client %}(.*)not very well{% endclient %}
+   {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph9IvgPBouov8MHLkpyJfR7y{% endresponse %}
+    {% response %}OK, can you elaborate a bit?{% endresponse %}
     {% endblock %}
+
     {% block %}
         {% client %}(.*)good{% endclient %}
         {% response %}That's good to know.{% endresponse %}
@@ -212,12 +328,10 @@
     {% block %}
         {% client %}(.*)bad day{% endclient %}
         {% response %}I am Sorry to hear that, You should try https://youtu.be/PXhgUa96hUw{% endresponse %}
+        {% response %}I am Sorry to hear that, Have you tried meditation{% endresponse %}
     {% endblock %}
 
-    {% block %}
-        {% client %}(.*)i am feeling sad(.*){% endclient %}
-        {% response %}Why are you feeling sad?{% endresponse %}
-    {% endblock %}
+
     {% block %}
         {% client %}(.*)i am not feeling good(.*){% endclient %}
         {% client %}(.*)not feeling good(.*){% endclient %}
@@ -228,9 +342,6 @@
         {% client %}(.*)i am feeling tried(.*){% endclient %}
         {% response %}How about getting some rest? We can countinue this later.{% endresponse %}
     {% endblock %}
-
-
-
     {% block %}
         {% client %}(Do you know about|tell me about) (.*){% endclient %}
         {% response %}{% call tellMeAbout:%2 %}{% endresponse %}
@@ -359,6 +470,7 @@
 	    {% response %}Do you really think so?{% endresponse %}
 	    {% response %}But you're not sure %1?{% endresponse %}
     {% endblock %}
+
     {% block %}
 	    {% client %}(.*) friend (.*){% endclient %}
 	    {% response %}Tell me more about your friends.{% endresponse %}
@@ -547,6 +659,9 @@
 	    {% client %}(.*)i can not like you(.*){% endclient %}
 	    {% client %}(.*)don't talk to you(.*){% endclient %}
 	    {% client %}(.*)don't want to talk to you(.*){% endclient %}
+	    {% client %}(.*)don't wanna to talk to you(.*){% endclient %}
+	    {% client %}(.*)don't like to talk to you(.*){% endclient %}
+	    {% client %}(.*)you made feel bad(.*){% endclient %}
 	    {% client %}(.*)suppose to help(.*){% endclient %}
 	    {% response %}I am Sorry i made you feel that way. You Should keep your phone aside for 10  minute and take deep breaths{% endresponse %}
 
@@ -558,11 +673,20 @@
 	    {% response %}Perhaps the answer lies within yourself?{% endresponse %}
 	    {% response %}Why don't you tell me?{% endresponse %}
     {% endblock %}
+
     {% block %}
 	    {% client %}(quit|BYE|bye){% endclient %}
 	    {% response %}Thank you for talking with me.{% endresponse %}
 	    {% response %}Good-bye.{% endresponse %}
 	    {% response %}Thank you, Nice talking to you.  Have a good day!{% endresponse %}
+    {% endblock %}
+      {% block %}
+	    {% client %}(.*)Thanks(.*){% endclient %}
+	    {% client %}(.*)Thank(.*){% endclient %}
+        {% client %}(.*)Thank(.*){% endclient %}
+
+	    {% client %}(.*)thanks(.*){% endclient %}
+	    {% response %}No problem. Remember i am always here for you {% endresponse %}
     {% endblock %}
     {% block %}
 	    {% client %}(.*){% endclient %}

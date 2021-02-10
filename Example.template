@@ -181,6 +181,8 @@
         {% client %}(.*)want to relax(.*){% endclient %}
         {% client %}(.*)need to relax(.*){% endclient %}
         {% client %}(.*)help in relax(.*){% endclient %}
+        {% client %}(.*)tips for relax(.*){% endclient %}
+        {% client %}(.*)tips for mind relax(.*){% endclient %}
         {% client %}(.*)help in relaxation(.*){% endclient %}
         {% response %}Give this a try https://youtu.be/NrcU5TYeLLI{% endresponse %}
         {% response %}Try Meditating for 5-10 minutes{% endresponse %}
@@ -222,7 +224,7 @@
          {% client %}(.*)tips on meditat(.*){% endclient %}
          {% client %}(.*)can't on meditat(.*){% endclient %}
          {% client %}(.*)can not on meditat(.*){% endclient %}
-         {% response %}This video will guide you youtube.com/watch?v=Evgx9yX2Vw8{% endresponse %}
+         {% response %}This video will guide you https://youtube.com/watch?v=Evgx9yX2Vw8{% endresponse %}
      {% endblock %}
 
     {% block %}
@@ -344,6 +346,7 @@
         {% client %}(.*)feeling sad(.*){% endclient %}
         {% client %}(.*)i am sad(.*){% endclient %}
         {% client %}(.*)sad(.*){% endclient %} {% client %}(.*)feeling sad(.*){% endclient %}
+ {% client %}(.*)lonely(.*){% endclient %} {% client %}(.*)feeling sad(.*){% endclient %}
 
         {% client %}(.*)feeling bad(.*){% endclient %}
         {% client %}(.*)i am bad(.*){% endclient %}
@@ -364,7 +367,7 @@
     {% endblock %}
 
     {% block %}
-        {% client %}(.*)good{% endclient %}
+        {% client %}(.*)good(.*){% endclient %}
         {% response %}That's good to know.{% endresponse %}
     {% endblock %}
 
@@ -458,7 +461,7 @@
     {% block %}
         {% client %}I am (.*){% endclient %}
          {% response %}How long have you been %1?{% endresponse %}
-        {% response %}How do you feel about being %1?{% endresponse %}
+        {% response %}why are you feel about being %1?{% endresponse %}
     {% endblock %}
     {% block %}
         {% client %}I'm (.*){% endclient %}
@@ -719,10 +722,12 @@
 
     {% block %}
 	    {% client %}(quit|BYE|bye){% endclient %}
+	    {% client %}(quit|BYE|bye){% endclient %}
 	    {% response %}Thank you for talking with me.{% endresponse %}
 	    {% response %}Good-bye.{% endresponse %}
 	    {% response %}Thank you, Nice talking to you.  Have a good day!{% endresponse %}
     {% endblock %}
+
       {% block %}
 	    {% client %}(.*)Thanks(.*){% endclient %}
 	    {% client %}(.*)Thank(.*){% endclient %}
@@ -730,6 +735,11 @@
 
 	    {% client %}(.*)thanks(.*){% endclient %}
 	    {% response %}No problem. Remember i am always here for you {% endresponse %}
+    {% endblock %}
+
+      {% block %}
+	    {% client %}(.*)ok(.*){% endclient %}
+	    {% response %}fine{% endresponse %}
     {% endblock %}
     {% block %}
 	    {% client %}(.*){% endclient %}

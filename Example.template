@@ -193,6 +193,8 @@
 
     {% block %}
         {% client %}(.*)I am not feeling happy(.*){% endclient %}
+        {% client %}(.*)can i ever happy(.*){% endclient %}
+        {% client %}(.*)can i ever be happy(.*){% endclient %}
          {% response %}Try something new. Break out of your routine and mix things up! It can be as simple as walking down a different street  -- anything to just get off of autopilot and be present where you are.{% endresponse %}
          {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph9IvgPBouov8MHLkpyJfR7y{% endresponse %}
          {% response %}Meditation might me helpful{% endresponse %}

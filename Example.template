@@ -41,15 +41,24 @@
 
         {% client %}(.*)commit suicide(.*){% endclient %}
         {% client %}(.*)do suicide(.*){% endclient %}
+        {% client %}(.*)fed up with my life(.*){% endclient %}
+        {% client %}(.*)fed up with life(.*){% endclient %}
+        {% client %}(.*)give up life(.*){% endclient %}
+        {% client %}(.*)giveup life(.*){% endclient %}
+        {% client %}(.*)giveup on life(.*){% endclient %}
+        {% client %}(.*)give up on life(.*){% endclient %}
         {% client %}(.*)hang myself(.*){% endclient %}
         {% client %}(.*)kill myself(.*){% endclient %}
+	    {% client %}(.*)Jumping from(.*){% endclient %}
+        {% client %}(.*)suicidal through(.*){% endclient %}
+	    {% client %}(.*)jump from(.*){% endclient %}
+	    {% client %}(.*)Stab myself(.*){% endclient %}
+	    {% client %}(.*)Hurt myself(.*){% endclient %}
+	    {% client %}(.*)hate myself(.*){% endclient %}
 
-        {% response %}How are you coping with what's been happening in your life?{% endresponse %}
-        {% response %}Do you ever feel like just giving up?{% endresponse %}
-        {% response %}Are you thinking about dying?{% endresponse %}
-        {% response %}Are you thinking about hurting yourself?{% endresponse %}
-        {% response %}Are you thinking about suicide?{% endresponse %}
-        {% response %}When ever thought about this first, or tried to harm yourself?{% endresponse %}
+	    {% response %}Life is abundant, and life is beautiful. And it’s a good place that we’re all in, you know, on this earth, if we take care of it.{% endresponse %}
+        {% response %}Learn to enjoy every minute of your life. Be happy now. Don’t wait for something outside of yourself to make you happy in the future. Think how really precious is the time you have to spend, whether it’s at work or with your family. Every minute should be enjoyed and savored.{% endresponse %}
+        {% response %}Life is full of beauty. Notice it. Notice the bumble bee, the small child, and the smiling faces. Smell the rain, and feel the wind. Live your life to the fullest potential, and fight for your dreams.{% endresponse %}
 
 
     {% endblock %}
@@ -195,6 +204,9 @@
          {% client %}(.*)meditation routine(.*){% endclient %}
          {% client %}(.*)good meditation(.*){% endclient %}
          {% client %}(.*)better meditation(.*){% endclient %}
+         {% client %}(.*)what meditation(.*){% endclient %}
+         {% client %}(.*)what kind meditation(.*){% endclient %}
+         {% client %}(.*)what kind of meditation(.*){% endclient %}
          {% client %}(.*)need meditation(.*){% endclient %}
          {% client %}(.*)do not Know how to meditat(.*){% endclient %}
          {% client %}(.*)don't Know how to meditat(.*){% endclient %}
@@ -331,7 +343,12 @@
         {% client %}(.*)feeling sad(.*){% endclient %}
         {% client %}(.*)feeling sad(.*){% endclient %}
         {% client %}(.*)i am sad(.*){% endclient %}
-        {% client %}(.*)sad(.*){% endclient %}
+        {% client %}(.*)sad(.*){% endclient %} {% client %}(.*)feeling sad(.*){% endclient %}
+
+        {% client %}(.*)feeling bad(.*){% endclient %}
+        {% client %}(.*)i am bad(.*){% endclient %}
+        {% client %}(.*)i am a bad(.*){% endclient %}
+        {% client %}(.*)bad(.*){% endclient %}
         {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph9IvgPBouov8MHLkpyJfR7y{% endresponse %}
     {% endblock %}
 

@@ -74,12 +74,7 @@
         {% response %}I know you can't mean that. but I'm flattered all the same.{% endresponse %}
     {% endblock %}
 
- {% block %}
-	    {% client %}(.*)family issues(.*){% endclient %}
-	    {% client %}(.*)family issue(.*){% endclient %}
 
-	    {% response %}OK, but can you elaborate a bit?{% endresponse %}
-    {% endblock %}
     {% block %}
         {% client %}(.*)depressed(.*){% endclient %}
         {% response %}Why are you feeling depressed?{% endresponse %}
@@ -209,6 +204,7 @@
          {% client %}(.*)help meditat(.*){% endclient %}
          {% client %}(.*)help me meditat(.*){% endclient %}
          {% client %}(.*)help in meditat(.*){% endclient %}
+         {% client %}(.*)kind of meditat(.*){% endclient %}
          {% client %}(.*)help on meditat(.*){% endclient %}
          {% client %}(.*)tip meditat(.*){% endclient %}
          {% client %}(.*)tips on meditat(.*){% endclient %}
@@ -266,6 +262,7 @@
         {% client %}(.*)need my family(.*){% endclient %}
         {% client %}(.*)hate my family(.*){% endclient %}
         {% client %}(.*)don't like my family(.*){% endclient %}
+        {% client %}(.*)of family(.*){% endclient %}
         {% client %}(.*)do not like my family(.*){% endclient %}
         {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph8smM6LiCCG8iFm4R63TT6k{% endresponse %}
     {% endblock %}
@@ -330,12 +327,12 @@
         {% response %}Try 15 days meditation challenge{% endresponse %}
     {% endblock %}
 
-{% block %}
-
-        {% client %}(.*)felling sad(.*){% endclient %}
-        {% client %}(.*)felling sad(.*){% endclient %}
+    {% block %}
+        {% client %}(.*)feeling sad(.*){% endclient %}
+        {% client %}(.*)feeling sad(.*){% endclient %}
+        {% client %}(.*)i am sad(.*){% endclient %}
+        {% client %}(.*)sad(.*){% endclient %}
         {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph9IvgPBouov8MHLkpyJfR7y{% endresponse %}
-
     {% endblock %}
 
     {% block %}
@@ -480,7 +477,7 @@
         {% response %}If %1, what else must be true?{% endresponse %}
     {% endblock %}
     {% block %}
-        {% client %}(.*) sorry (.*){% endclient %}
+        {% client %}(.*)sorry(.*){% endclient %}
         {% response %}There are many times when no apology is needed.{% endresponse %}
         {% response %}What feelings do you have when you apologize?{% endresponse %}
     {% endblock %}

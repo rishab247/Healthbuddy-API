@@ -537,6 +537,21 @@
 	    {% response %}How do you think your childhood experiences relate to your feelings today?{% endresponse %}
     {% endblock %}
     {% block %}
+	    {% client %}(.*)fuck(.*){% endclient %}
+	    {% client %}(.*)shutup(.*){% endclient %}
+	    {% client %}(.*)shut up(.*){% endclient %}
+	    {% client %}(.*)go to hell(.*){% endclient %}
+	    {% client %}(.*)i hate you(.*){% endclient %}
+	    {% client %}(.*)should kill yourself(.*){% endclient %}
+	    {% client %}(.*)i don't like you(.*){% endclient %}
+	    {% client %}(.*)i can not like you(.*){% endclient %}
+	    {% client %}(.*)don't talk to you(.*){% endclient %}
+	    {% client %}(.*)don't want to talk to you(.*){% endclient %}
+	    {% client %}(.*)suppose to help(.*){% endclient %}
+	    {% response %}I am Sorry i made you feel that way. You Should keep your phone aside for 10  minute and take deep breaths{% endresponse %}
+
+    {% endblock %}
+    {% block %}
 	    {% client %}(.*)\?{% endclient %}
 	    {% response %}Why do you ask that?{% endresponse %}
 	    {% response %}Please consider whether you can answer your own question.{% endresponse %}

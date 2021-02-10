@@ -59,8 +59,17 @@
 	    {% response %}Life is abundant, and life is beautiful. And it’s a good place that we’re all in, you know, on this earth, if we take care of it.{% endresponse %}
         {% response %}Learn to enjoy every minute of your life. Be happy now. Don’t wait for something outside of yourself to make you happy in the future. Think how really precious is the time you have to spend, whether it’s at work or with your family. Every minute should be enjoyed and savored.{% endresponse %}
         {% response %}Life is full of beauty. Notice it. Notice the bumble bee, the small child, and the smiling faces. Smell the rain, and feel the wind. Live your life to the fullest potential, and fight for your dreams.{% endresponse %}
+    {% endblock %}
 
 
+
+
+    {% block %}
+        {% client %}(.*)fight with(.*){% endclient %}
+        {% client %}(.*)had a fight(.*){% endclient %}
+        {% client %}(.*)having fight(.*){% endclient %}
+        {% client %}(.*)having a fight(.*){% endclient %}
+        {% response %}Try meditation it will calm you down{% endresponse %}
     {% endblock %}
 
 
@@ -88,6 +97,27 @@
         {% client %}(.*)depressed(.*){% endclient %}
         {% response %}Why are you feeling depressed?{% endresponse %}
         {% response %}What makes you feel depressed?{% endresponse %}
+    {% endblock %}
+
+ {% block %}
+        {% client %}(.*)lost my(.*){% endclient %}
+        {% client %}(.*)lost my(.*){% endclient %}
+        {% client %}(.*)died(.*){% endclient %}
+        {% client %}(.*)dying(.*){% endclient %}
+        {% response %}Loss of someone is seen as a “natural” and essential part of life, comparable to the natural history of other life forms in nature, yet it is also seen by many religions as uniquely different in profound ways. Death is often defined as the cessation of all the biological functions that sustain a living organism.{% endresponse %}
+        {% response %}The one great advantage the departed soul has over a survivor is knowing it is still alive and will be seeing everyone who is meaningful to them again.{% endresponse %}
+        {% response %}Not only is death inevitable; death is necessary for us to inherit the new life we are to enjoy in Christ.{% endresponse %}
+        {% response %}Death is not a period that ends the great sentence of life, but a comma that punctuates it to more lofty significance. Death is not a blind alley that leads the human race into a state of nothingness, but an open door which leads man into life eternal.{% endresponse %}
+    {% endblock %}
+
+     {% block %}
+        {% client %}(.*)not stable(.*){% endclient %}
+        {% client %}(.*)unstable(.*){% endclient %}
+        {% client %}(.*)unreliable(.*){% endclient %}
+        {% client %}(.*)not in a right mind(.*){% endclient %}
+        {% client %}(.*)not in right mind(.*){% endclient %}
+
+        {% response %}You should give meditation a try.{% endresponse %}
     {% endblock %}
 
     {% block %}
@@ -201,6 +231,53 @@
      {% endblock %}
 
 
+    {% block %}
+        {% client %}(.*)quit drinking(.*){% endclient %}
+        {% client %}(.*)quit alcohol(.*){% endclient %}
+        {% client %}(.*)quit bear(.*){% endclient %}
+
+       {% client %}(.*)addicted drink(.*){% endclient %}
+        {% client %}(.*)addicted alcohol(.*){% endclient %}
+        {% client %}(.*)addicted bear(.*){% endclient %}
+
+       {% client %}(.*)addicted to drink(.*){% endclient %}
+        {% client %}(.*)addicted to alcohol(.*){% endclient %}
+        {% client %}(.*)addicted to bear(.*){% endclient %}
+
+        {% client %}(.*)leave drinking(.*){% endclient %}
+        {% client %}(.*)stop drinking(.*){% endclient %}
+        {% client %}(.*)reduce drinking(.*){% endclient %}
+         {% response %}Overcoming an addiction to alcohol can be a long and bumpy road. At times, it may even feel impossible. But it’s not. If you’re ready to stop drinking and willing to get the support you need, you can recover from alcoholism and alcohol abuse—no matter how heavy your drinking or how powerless you feel. And you don’t have to wait until you hit rock bottom; you can make a change at any time. Whether you want to quit drinking altogether or cut down to healthier levels, these guidelines can help you get started on the road to recovery today.{% endresponse %}
+         {% response %}If your goal is to reduce your drinking, decide which days you will drink alcohol and how many drinks you will allow yourself per day. Try to commit to at least two days each week when you won’t drink at all{% endresponse %}
+         {% response %}Meditation might me helpful{% endresponse %}
+     {% endblock %}
+
+    {% block %}
+        {% client %}(.*)quit smoking(.*){% endclient %}
+        {% client %}(.*)quit smoking(.*){% endclient %}
+        {% client %}(.*)quit smoking(.*){% endclient %}
+
+       {% client %}(.*)addicted smoking(.*){% endclient %}
+        {% client %}(.*)addicted smoking(.*){% endclient %}
+        {% client %}(.*)addicted smoking(.*){% endclient %}
+
+       {% client %}(.*)addicted to smoking(.*){% endclient %}
+        {% client %}(.*)addicted to smoking(.*){% endclient %}
+        {% client %}(.*)addicted to smoking(.*){% endclient %}
+
+        {% client %}(.*)leave smoking(.*){% endclient %}
+        {% client %}(.*)stop smoking(.*){% endclient %}
+        {% client %}(.*)reduce smoking(.*){% endclient %}
+         {% response %}Overcoming an addiction to smoking can be a long and bumpy road. At times, it may even feel impossible. But it’s not. If you’re ready to stop smoking and willing to get the support you need, you can recover from  smoking abuse—no matter how heavy your smoking or how powerless you feel. And you don’t have to wait until you hit rock bottom; you can make a change at any time. Whether you want to quit smoking altogether or cut down to healthier levels, these guidelines can help you get started on the road to recovery today.{% endresponse %}
+         {% response %}If your goal is to reduce your smoking, decide which days you will smoke and how many times you will allow yourself per day. Try to commit to at least two days each week when you won’t smoking at all{% endresponse %}
+         {% response %}Meditation might me helpful{% endresponse %}
+     {% endblock %}
+
+{% block %}
+	    {% client %}(.*)what is meditation(.*){% endclient %}
+	    {% response %}Meditation isn’t about becoming a different person, a new person, or even a better person. It’s about training in awareness and getting a healthy sense of perspective. You’re not trying to turn off your thoughts or feelings. You’re learning to observe them without judgment. And eventually, you may start to better understand them as well.{% endresponse %}
+ {% endblock %}
+
 
     {% block %}
          {% client %}(.*)meditation for morning(.*){% endclient %}
@@ -222,12 +299,27 @@
          {% client %}(.*)help in meditat(.*){% endclient %}
          {% client %}(.*)kind of meditat(.*){% endclient %}
          {% client %}(.*)help on meditat(.*){% endclient %}
+         {% client %}(.*)to do meditat(.*){% endclient %}
+         {% client %}(.*)todo meditat(.*){% endclient %}
          {% client %}(.*)tip meditat(.*){% endclient %}
          {% client %}(.*)tips on meditat(.*){% endclient %}
          {% client %}(.*)can't on meditat(.*){% endclient %}
          {% client %}(.*)can not on meditat(.*){% endclient %}
          {% response %}This video will guide you https://youtube.com/watch?v=Evgx9yX2Vw8{% endresponse %}
      {% endblock %}
+
+
+
+{% block %}
+	    {% client %}(.*)Meditation for gratitude(.*){% endclient %}
+	    {% client %}(.*)need gratitude(.*){% endclient %}
+	    {% client %}(.*)need for gratitude(.*){% endclient %}
+	    {% client %}(.*)want for gratitude(.*){% endclient %}
+	    {% client %}(.*)want gratitude(.*){% endclient %}
+         {% response %}This video will guide you https://youtu.be/4P2SCgwXVxc{% endresponse %}
+ {% endblock %}
+
+
 
     {% block %}
         {% client %}(.*)perfect sleep(.*){% endclient %}
@@ -286,7 +378,22 @@
     {% block %}
         {% client %}(.*)negative energies(.*){% endclient %}
         {% client %}(.*)negativity(.*){% endclient %}
+         {% client %}(.*)clean my soul(.*){% endclient %}
+          {% client %}(.*)my soul(.*){% endclient %}
         {% response %}Give this a try https://youtu.be/-arLsc6Ue34{% endresponse %}
+        {% response %}Give this a try https://youtu.be/tMc9uxDYGJY{% endresponse %}
+    {% endblock %}
+
+
+
+    {% block %}
+        {% client %}(.*)healthy life(.*){% endclient %}
+        {% client %}(.*)better life(.*){% endclient %}
+        {% client %}(.*)new life(.*){% endclient %}
+        {% client %}(.*)good life(.*){% endclient %}
+        {% client %}(.*)improved life(.*){% endclient %}
+        {% client %}(.*)prosperous life(.*){% endclient %}
+        {% response %}Give this a try https://youtu.be/wW4U1SBWshg{% endresponse %}
     {% endblock %}
 
      {% block %}
@@ -297,8 +404,34 @@
         {% client %}(.*)lack inspiration(.*){% endclient %}
         {% client %}(.*)lack of inspiration(.*){% endclient %}
         {% client %}(.*)crave inspiration(.*){% endclient %}
+
+        {% client %}(.*)some motivation(.*){% endclient %}
+        {% client %}(.*)need motivation(.*){% endclient %}
+        {% client %}(.*)want motivation(.*){% endclient %}
+        {% client %}(.*)don't have motivation(.*){% endclient %}
+        {% client %}(.*)lack motivation(.*){% endclient %}
+        {% client %}(.*)lack of motivation(.*){% endclient %}
+        {% client %}(.*)crave motivation(.*){% endclient %}
+
         {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph_NzTFBzbVKAwywl4YqsGYr{% endresponse %}
     {% endblock %}
+
+
+
+
+
+     {% block %}
+        {% client %}(.*)feeling low (.*){% endclient %}
+        {% client %}(.*)not feeling enthusiastic(.*){% endclient %}
+        {% client %}(.*)feeling garbage(.*){% endclient %}
+
+        {% response %}Give this a try https://youtu.be/pu-kQ8OyRjE{% endresponse %}
+        {% response %}Give this a try https://youtu.be/pu-kQ8OyRjE{% endresponse %}
+        {% response %}try this meditation https://youtu.be/pu-kQ8OyRjE{% endresponse %}
+    {% endblock %}
+
+
+
 
 
 
@@ -534,10 +667,7 @@
 	    {% response %}You Should at least give it a try{% endresponse %}
  {% endblock %}
 
-    {% block %}
-	    {% client %}(.*)meditation(.*){% endclient %}
-	    {% response %}Meditation isn’t about becoming a different person, a new person, or even a better person. It’s about training in awareness and getting a healthy sense of perspective. You’re not trying to turn off your thoughts or feelings. You’re learning to observe them without judgment. And eventually, you may start to better understand them as well.{% endresponse %}
- {% endblock %}
+
 
     {% block %}
 	    {% client %}Yes{% endclient %}

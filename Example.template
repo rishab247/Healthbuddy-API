@@ -54,6 +54,8 @@
 	    {% client %}(.*)jump from(.*){% endclient %}
 	    {% client %}(.*)Stab myself(.*){% endclient %}
 	    {% client %}(.*)Hurt myself(.*){% endclient %}
+	    {% client %}(.*)life is hard(.*){% endclient %}
+	    {% client %}(.*)life is very hard(.*){% endclient %}
 	    {% client %}(.*)hate myself(.*){% endclient %}
 
 	    {% response %}Life is abundant, and life is beautiful. And it’s a good place that we’re all in, you know, on this earth, if we take care of it.{% endresponse %}
@@ -93,15 +95,89 @@
     {% endblock %}
 
 
+
+ {% block %}
+        {% client %}(.*)Bully(.*){% endclient %}
+        {% client %}(.*)Bullied(.*){% endclient %}
+        {% response %}Bullying can hurt your feelings and make you afraid to leave home. If you’re dealing with a bully, know that you aren’t alone, and things will get better! One way to help yourself feel better fast is to avoid your bullies, whether you see them in person or they’re cyber bullying you. However, it’s also important that you build yourself up so you have confidence and support.{% endresponse %}
+        {% response %}Travel with a buddy so that the bully won’t mess with you. Bullies are less likely to bother you when you aren’t alone, so use the buddy system to keep your bullies away. Walk with a friend when you know your bully might be around.If none of your friends are around, look for someone else who’s not part of the bully’s group. Then, try to hang around them. Start up a conversation with a simple question like, “What do you think of the new science teacher?” or “What did you think of the last pep rally?”The more people you have around you, the less likely a bully is to mess with you. Try to hang out with a group as often as you can.{% endresponse %}
+
+    {% endblock %}
+
+
+
+
     {% block %}
         {% client %}(.*)depressed(.*){% endclient %}
         {% response %}Why are you feeling depressed?{% endresponse %}
         {% response %}What makes you feel depressed?{% endresponse %}
     {% endblock %}
 
+
+    {% block %}
+        {% client %}(.*)anger(.*){% endclient %}
+        {% response %}In the heat of the moment, it's easy to say something you'll later regret. Take a few moments to collect your thoughts before saying anything — and allow others involved in the situation to do the same.{% endresponse %}
+        {% response %}As soon as you're thinking clearly, express your frustration in an assertive but nonconfrontational way. State your concerns and needs clearly and directly, without hurting others or trying to control them.{% endresponse %}
+        {% response %}To avoid criticizing or placing blame — which might only increase tension — use "I" statements to describe the problem. Be respectful and specific. For example, say, "I'm upset that you left the table without offering to help with the dishes" instead of "You never do any housework."{% endresponse %}
+        {% response %}Watch this video https://youtu.be/QAsJvKsd2Xk{% endresponse %}
+
+    {% endblock %}
+
+
+
+
+    {% block %}
+        {% client %}(.*)drugs(.*){% endclient %}
+        {% response %}Some people begin scheduling a long walk into their day. Some start a meditation practice. Others repeat positive affirmations before going to bed. Whichever works for you, try to find a set of rituals that help you stay balanced and mindful.
+Changing any persistent habit is difficult. You can expect good days and bad days. It’s best to plan for it, and have some ways of dealing with it. Although this can include talking to a friend or a coach, it also matters what you do on your own time. Be kind to yourself, stay positive, and have some self-care strategies ready.{% endresponse %}
+        {% response %}Quitting drugs is a long process for many people, and setbacks are common. Don’t let yourself be discouraged. Many others who have succeeded before you hit tough barriers along the way, or needed several tries to find the best approach for them.
+The important thing is to keep going. If one option doesn’t work, start again and try another. There are many programs, systems, and methods for giving up alcohol. The truth is, one of them is bound to work for you. If the process takes a while, remember you are making a major change in your life and health. Big changes take time. That is part of why, when you eventually succeed, it can feel so liberating.{% endresponse %}
+    {% endblock %}
+
+    {% block %}
+        {% client %}(.*)Mental breakdown(.*){% endclient %}
+        {% response %}getting regular exercise at least 3 times a week, which can be as simple as walking around your neighborhood for 30 minutes. going to a therapist or attending counseling sessions to manage stress. avoiding drugs, alcohol, caffeine, and other substances that create stress on the body.{% endresponse %}
+
+    {% endblock %}
+
+
+    {% block %}
+        {% client %}(.*)hate me(.*){% endclient %}
+        {% response %}Staying positive and engaging in healthy communication are the keys to becoming more loving. Stamp out your inner, critical voice and pay more attention to the good things and people in your life, and you’ll soon be living a happier, more loving life.{% endresponse %}
+        {% response %}Learning to give your time and energy in service to a just cause does not only create a better world, it also provides great personal satisfaction and helps you be more loving. Identify a cause you believe in and locate a related volunteer organization in your area. For instance, if you’re passionate about animal rights and environmentalism, you could volunteer with your local animal shelter or conservation group.{% endresponse %}
+        {% response %}Reflect on your personal mistakes. Taking time to consider occasions in which you acted out of spite, hate, or anger. Thinking about these failures, both big and small, and recognizing that you were in the wrong, will lead you to act in a better, more loving way in the future.[2] While you should not hold on to or obsess over your mistakes, it is important to reflect on them to discover how you can respond in more loving ways in the future.{% endresponse %}
+    {% endblock %}
+
+      {% block %}
+        {% client %}(.*)nervous(.*){% endclient %}
+        {% client %}(.*)anxiety(.*){% endclient %}
+        {% client %}(.*)stress(.*){% endclient %}
+        {% response %}It’s normal to experience stress and anxiety from time to time, and there are strategies you can use to make them more manageable. Pay attention to how your body and mind respond to stressful and anxiety-producing situations. Next time a stressful experience occurs, you’ll be able to anticipate your reaction and it may be less disruptive.{% endresponse %}
+        {% response %}Certain lifestyle changes can help alleviate symptoms of stress and anxiety. These techniques can be used along with medical treatments for anxiety. Techniques to reduce stress and anxiety include:
+eating a balanced, healthy diet
+limiting caffeine and alcohol consumption
+getting enough sleep{% endresponse %}
+        {% response %}Regular exercise is good for your physical and emotional health. Regular exercise works as well as medication to ease anxiety for some people. And it’s not just a short-term fix; you may experience anxiety relief for hours after working out.{% endresponse %}
+        {% response %}What makes you feel depressed?{% endresponse %}
+    {% endblock %}
+
+  {% block %}
+        {% client %}(.*)smile(.*){% endclient %}
+        {% client %}(.*)to be happy(.*){% endclient %}
+        {% client %}(.*)need happiness(.*){% endclient %}
+        {% client %}(.*)want happy(.*){% endclient %}
+        {% client %}(.*)happ(.*){% endclient %}
+        {% response %}Finding the little things that make you smile and pursuing it more is sometimes just the motivation you need to keep you smiling throughout the day. Write down a short list of what makes you smile and make it a point to enjoy one thing of it every day. It could be as simple as a hug from a loved one or an activity you rarely make time for. Life is indeed short, but by taking the time to enjoy it to the fullest will be worth it in the end!{% endresponse %}
+        {% response %}Regardless of your circumstances, you can always find reasons to power through any trial with a smile on your face. I know from experience that the times I didn’t feel like smiling were the times I needed it the most. Even when you don’t feel like it, you’ll be thankful you did, because of the many benefits it brings to yourself and to others. That very smile you felt reluctant to give could be the very thing that someone else needed to brighten up their day. It all begins with a smile.{% endresponse %}
+        {% response %}Many of my faith-based friends and followers shared that God is what helps them smile no matter what. I’m in complete agreement. God is my rock and I’m so thankful to have Him to rely on when times are toughest{% endresponse %}
+    {% endblock %}
+
+
+
  {% block %}
         {% client %}(.*)lost my(.*){% endclient %}
-        {% client %}(.*)lost my(.*){% endclient %}
+        {% client %}(.*)lost someone(.*){% endclient %}
+        {% client %}(.*)passed away(.*){% endclient %}
         {% client %}(.*)died(.*){% endclient %}
         {% client %}(.*)dying(.*){% endclient %}
         {% response %}Loss of someone is seen as a “natural” and essential part of life, comparable to the natural history of other life forms in nature, yet it is also seen by many religions as uniquely different in profound ways. Death is often defined as the cessation of all the biological functions that sustain a living organism.{% endresponse %}
@@ -304,6 +380,7 @@
          {% client %}(.*)tip meditat(.*){% endclient %}
          {% client %}(.*)tips on meditat(.*){% endclient %}
          {% client %}(.*)can't on meditat(.*){% endclient %}
+         {% client %}(.*)to meditat(.*){% endclient %}
          {% client %}(.*)can not on meditat(.*){% endclient %}
          {% response %}This video will guide you https://youtube.com/watch?v=Evgx9yX2Vw8{% endresponse %}
      {% endblock %}

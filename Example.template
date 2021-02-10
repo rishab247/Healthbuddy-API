@@ -116,6 +116,7 @@
 
     {% block %}
         {% client %}(.*)anger(.*){% endclient %}
+        {% client %}(.*)angry(.*){% endclient %}
         {% response %}In the heat of the moment, it's easy to say something you'll later regret. Take a few moments to collect your thoughts before saying anything — and allow others involved in the situation to do the same.{% endresponse %}
         {% response %}As soon as you're thinking clearly, express your frustration in an assertive but nonconfrontational way. State your concerns and needs clearly and directly, without hurting others or trying to control them.{% endresponse %}
         {% response %}To avoid criticizing or placing blame — which might only increase tension — use "I" statements to describe the problem. Be respectful and specific. For example, say, "I'm upset that you left the table without offering to help with the dishes" instead of "You never do any housework."{% endresponse %}

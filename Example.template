@@ -178,11 +178,9 @@
         {% client %}(.*)need to relax(.*){% endclient %}
         {% client %}(.*)help in relax(.*){% endclient %}
         {% client %}(.*)help in relaxation(.*){% endclient %}
-
         {% response %}Give this a try https://youtu.be/NrcU5TYeLLI{% endresponse %}
         {% response %}Try Meditating for 5-10 minutes{% endresponse %}
         {% response %}Try closing you eyes and take deep breath for 5 minutes{% endresponse %}
-
      {% endblock %}
 
 
@@ -194,6 +192,31 @@
          {% response %}Meditation might me helpful{% endresponse %}
      {% endblock %}
 
+
+
+    {% block %}
+         {% client %}(.*)meditation for morning(.*){% endclient %}
+         {% client %}(.*)morning meditation(.*){% endclient %}
+         {% client %}(.*)meditation routine(.*){% endclient %}
+         {% client %}(.*)good meditation(.*){% endclient %}
+         {% client %}(.*)better meditation(.*){% endclient %}
+         {% client %}(.*)need meditation(.*){% endclient %}
+         {% client %}(.*)do not Know how to meditat(.*){% endclient %}
+         {% client %}(.*)don't Know how to meditat(.*){% endclient %}
+         {% client %}(.*)do not Know meditat(.*){% endclient %}
+         {% client %}(.*)don't Know meditat(.*){% endclient %}
+         {% client %}(.*)tip on meditat(.*){% endclient %}
+         {% client %}(.*)help meditat(.*){% endclient %}
+         {% client %}(.*)help me meditat(.*){% endclient %}
+         {% client %}(.*)help in meditat(.*){% endclient %}
+         {% client %}(.*)help on meditat(.*){% endclient %}
+         {% client %}(.*)tip meditat(.*){% endclient %}
+         {% client %}(.*)tips on meditat(.*){% endclient %}
+         {% client %}(.*)can't on meditat(.*){% endclient %}
+         {% client %}(.*)can not on meditat(.*){% endclient %}
+         {% response %}This video will guide you youtube.com/watch?v=Evgx9yX2Vw8{% endresponse %}
+     {% endblock %}
+
     {% block %}
         {% client %}(.*)perfect sleep(.*){% endclient %}
         {% client %}(.*)nice sleep(.*){% endclient %}
@@ -202,15 +225,15 @@
         {% client %}(.*)need sleep(.*){% endclient %}
         {% client %}(.*)need nice sleep(.*){% endclient %}
         {% client %}(.*)need to sleep(.*){% endclient %}
-         {% client %}(.*)want sleep(.*){% endclient %}
-         {% client %}(.*)want nice sleep(.*){% endclient %}
+        {% client %}(.*)want sleep(.*){% endclient %}
+        {% client %}(.*)want nice sleep(.*){% endclient %}
         {% client %}(.*)want to sleep(.*){% endclient %}
         {% client %}(.*)tips for good sleep(.*){% endclient %}
         {% client %}(.*)tips for better sleep(.*){% endclient %}
         {% client %}(.*)tips for perfect sleep(.*){% endclient %}
         {% client %}(.*)tips for sleep(.*){% endclient %}
-         {% response %}Give this a try https://youtu.be/gM-MuAtatG0{% endresponse %}
-         {% response %}Meditation might me helpful. Meditate for 5-10 minute before going to bed{% endresponse %}
+        {% response %}Give this a try https://youtu.be/gM-MuAtatG0{% endresponse %}
+        {% response %}Meditation might me helpful. Meditate for 5-10 minute before going to bed{% endresponse %}
      {% endblock %}
 
 {% block %}
@@ -246,6 +269,13 @@
         {% client %}(.*)do not like my family(.*){% endclient %}
         {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph8smM6LiCCG8iFm4R63TT6k{% endresponse %}
     {% endblock %}
+
+    {% block %}
+        {% client %}(.*)negative energies(.*){% endclient %}
+        {% client %}(.*)negativity(.*){% endclient %}
+        {% response %}Give this a try https://youtu.be/-arLsc6Ue34{% endresponse %}
+    {% endblock %}
+
      {% block %}
         {% client %}(.*)some inspiration(.*){% endclient %}
         {% client %}(.*)need inspiration(.*){% endclient %}
@@ -304,7 +334,6 @@
 
         {% client %}(.*)felling sad(.*){% endclient %}
         {% client %}(.*)felling sad(.*){% endclient %}
-        {% response %}Why are you feeling sad?{% endresponse %}
         {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph9IvgPBouov8MHLkpyJfR7y{% endresponse %}
 
     {% endblock %}

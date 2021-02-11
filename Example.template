@@ -56,6 +56,7 @@
 	    {% client %}(.*)Hurt myself(.*){% endclient %}
 	    {% client %}(.*)life is hard(.*){% endclient %}
 	    {% client %}(.*)life is very hard(.*){% endclient %}
+	    {% client %}(.*)going to die(.*){% endclient %}
 	    {% client %}(.*)hate myself(.*){% endclient %}
 
 	    {% response %}Life is abundant, and life is beautiful. And it’s a good place that we’re all in, you know, on this earth, if we take care of it.{% endresponse %}

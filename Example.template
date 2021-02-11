@@ -721,6 +721,7 @@ getting enough sleep{% endresponse %}
     {% block %}
         {% client %}Hello(.*){% endclient %}
         {% client %}Hi{% endclient %}
+        {% client %}(.*)Hey(.*){% endclient %}
         {% client %}Hi(.*){% endclient %}
         {% response %}Hello... I'm glad you could drop by today.{% endresponse %}
         {% response %}Hi {% if { name } %}{ name }{% else %}there{% endif %}... how are you today?{% endresponse %}

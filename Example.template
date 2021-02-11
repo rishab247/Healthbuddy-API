@@ -359,6 +359,8 @@ getting enough sleep{% endresponse %}
     {% block %}
          {% client %}(.*)meditation for morning(.*){% endclient %}
          {% client %}(.*)morning meditation(.*){% endclient %}
+         {% client %}(.*)meditation tip(.*){% endclient %}
+         {% client %}(.*)meditate tip(.*){% endclient %}
          {% client %}(.*)meditation routine(.*){% endclient %}
          {% client %}(.*)good meditation(.*){% endclient %}
          {% client %}(.*)better meditation(.*){% endclient %}

@@ -58,6 +58,12 @@
 	    {% client %}(.*)life is very hard(.*){% endclient %}
 	    {% client %}(.*)going to die(.*){% endclient %}
 	    {% client %}(.*)hate myself(.*){% endclient %}
+	    {% client %}(.*)slit my wrist(.*){% endclient %}
+	    {% client %}(.*)slit my wrist(.*){% endclient %}
+	    {% client %}(.*)end life(.*){% endclient %}
+	    {% client %}(.*)end up life(.*){% endclient %}
+	    {% client %}(.*)end my life(.*){% endclient %}
+	    {% client %}(.*)end up my life(.*){% endclient %}
 
 	    {% response %}Life is abundant, and life is beautiful. And it’s a good place that we’re all in, you know, on this earth, if we take care of it.{% endresponse %}
         {% response %}Learn to enjoy every minute of your life. Be happy now. Don’t wait for something outside of yourself to make you happy in the future. Think how really precious is the time you have to spend, whether it’s at work or with your family. Every minute should be enjoyed and savored.{% endresponse %}
@@ -87,6 +93,7 @@
     {% endblock %}
     {% block %}
         {% client %}I love me{% endclient %}
+        {% client %}I love myself{% endclient %}
         {% response %}That's great to hear.{% endresponse %}
     {% endblock %}
 
@@ -217,6 +224,8 @@ getting enough sleep{% endresponse %}
         {% client %}(.*)I need help(.*){% endclient %}
         {% client %}(.*)I want help(.*){% endclient %}
         {% client %}(.*)I wanted help(.*){% endclient %}
+        {% client %}(.*)need buddy(.*){% endclient %}
+        {% client %}(.*)help me(.*){% endclient %}
         {% response %}Tell me i am here for you.{% endresponse %}
      {% endblock %}
      {% block %}
@@ -401,6 +410,26 @@ getting enough sleep{% endresponse %}
  {% endblock %}
 
 
+{% block %}
+	    {% client %}(.*)not a worthy person(.*){% endclient %}
+	    {% client %}(.*)not worthy(.*){% endclient %}
+	    {% client %}(.*)no one respect me (.*){% endclient %}
+	    {% client %}(.*)no one give respect(.*){% endclient %}
+	    {% client %}(.*)no one gives respect(.*){% endclient %}
+	    {% client %}(.*)do not respect me (.*){% endclient %}
+	    {% client %}(.*)don't respect me (.*){% endclient %}
+	    {% client %}(.*)don't respect me (.*){% endclient %}
+	    {% client %}(.*)feel inferior(.*){% endclient %}
+	    {% client %}(.*)am useless(.*){% endclient %}
+	    {% client %}(.*)feel useless(.*){% endclient %}
+	    {% client %}(.*)unfortunate(.*){% endclient %}
+	    {% client %}(.*)not a good(.*){% endclient %}
+
+        {% response %}There are many people in this world. Some have almost the exact same problem as another, if not worse. One will see their blessings; another will feel unfortunate! One will bless God; another will curse Him! Having the same problems but different mind. The worse may bless and the better may curse. It can go either way!!{% endresponse %}
+     {% response %}It’s usually how a person look at things. If you train your mind to see the negative in a bad situation, all the time, it will stay that way. Even if you believe in God or not, it will be that way! You will think you always have bad luck and less fortunate than others. Instead of trying to see the good, your focus will always be on the bad! There are people, I know, that can’t see, walk, talk, hear or get out of bed that think that they are fortunate to be still here! They have been knocked down more times then they feel they can get up but they still thank God for blessing them!{% endresponse %}
+ {% endblock %}
+
+
 
     {% block %}
         {% client %}(.*)perfect sleep(.*){% endclient %}
@@ -440,6 +469,9 @@ getting enough sleep{% endresponse %}
         {% client %}(.*)I do not have any friend(.*){% endclient %}
         {% client %}(.*)I want some friend(.*){% endclient %}
         {% client %}(.*)I have no friend(.*){% endclient %}
+        {% client %}(.*)zero friend(.*){% endclient %}
+        {% client %}(.*)no friend(.*){% endclient %}
+        {% client %}(.*)am alone(.*){% endclient %}
      {% response %}When a someone asks you a question about a new job or relationship, try to be as open as possible. You’ll build a sense of trust, and your friend will be likely to reciprocate with honesty about their life.{% endresponse %}
      {% response %}Even though social media can’t substitute for real friendships, Facebook can be a great way to find old friends and strengthen old ties if you engage thoughtfully.Trusted Source Posting general status updates (“Just ate breakfast! Delish”) doesn’t do much for close relationships. But posting on someone’s wall to congratulate them on getting in to graduate school can be really meaningful.{% endresponse %}
      {% response %}Research suggests that experiences may make us happier than actual items.Trusted Source And what better experience is there than spending time with a group of best friends? When a friend moves far away, consider saving up for a little road trip to visit and hang out in their new stomping ground. Likewise, let your friend know your couch is always available.{% endresponse %}
@@ -504,6 +536,7 @@ getting enough sleep{% endresponse %}
      {% block %}
         {% client %}(.*)feeling low (.*){% endclient %}
         {% client %}(.*)not feeling enthusiastic(.*){% endclient %}
+        {% client %}(.*)not feeling good(.*){% endclient %}
         {% client %}(.*)feeling garbage(.*){% endclient %}
 
         {% response %}Give this a try https://youtu.be/pu-kQ8OyRjE{% endresponse %}
@@ -565,7 +598,9 @@ getting enough sleep{% endresponse %}
  {% client %}(.*)lonely(.*){% endclient %} {% client %}(.*)feeling sad(.*){% endclient %}
 
         {% client %}(.*)feeling bad(.*){% endclient %}
-        {% client %}(.*)i am bad(.*){% endclient %}
+        {% client %}(.*)feeling like cry(.*){% endclient %}
+        {% client %}(.*)want to cry(.*){% endclient %}
+         {% client %}(.*)i am bad(.*){% endclient %}
         {% client %}(.*)i am a bad(.*){% endclient %}
         {% client %}(.*)bad(.*){% endclient %}
         {% response %}Give this a try https://youtube.com/playlist?list=PLb0C_I-k2Ph9IvgPBouov8MHLkpyJfR7y{% endresponse %}
@@ -720,13 +755,28 @@ getting enough sleep{% endresponse %}
 
     {% block %}
         {% client %}Hello(.*){% endclient %}
-        {% client %}Hi{% endclient %}
+        {% client %}Hlo(.*){% endclient %}
+         {% client %}Hi{% endclient %}
         {% client %}(.*)Hey(.*){% endclient %}
         {% client %}Hi(.*){% endclient %}
         {% response %}Hello... I'm glad you could drop by today.{% endresponse %}
         {% response %}Hi {% if { name } %}{ name }{% else %}there{% endif %}... how are you today?{% endresponse %}
         {% response %}Hello, how are you feeling today?{% endresponse %}
     {% endblock %}
+
+    {% block %}
+        {% client %}(.*)buddy(.*){% endclient %}
+         {% response %}I am here for you{% endresponse %}
+
+    {% endblock %}
+
+    {% block %}
+        {% client %}(.*)love you(.*){% endclient %}
+         {% client %}(.*)like you(.*){% endclient %}
+         {% response %}Thank you. me too.{% endresponse %}
+
+    {% endblock %}
+
     {% block %}
 	    {% client %}I think (.*){% endclient %}
 	    {% response %}Do you doubt %1?{% endresponse %}
@@ -958,7 +1008,7 @@ getting enough sleep{% endresponse %}
     {% block %}
 	    {% client %}(.*){% endclient %}
 	    {% response %}Please tell me more.{% endresponse %}
-	    {% response %}Let's change focus a bit... Tell me about your friends.{% endresponse %}
+	    {% response %}Let's change focus a bit... Tell me about yourself.{% endresponse %}
 	    {% response %}Can you elaborate on that?{% endresponse %}
 	    {% response %}Why do you say that %1?{% endresponse %}
 	    {% response %}I see.{% endresponse %}
